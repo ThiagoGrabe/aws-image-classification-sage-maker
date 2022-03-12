@@ -17,30 +17,30 @@ Upload the data to an S3 bucket through the AWS Gateway so that SageMaker has ac
 ## Hyperparameter Tuning
 This project used the pretrained [Resnet18](https://pytorch.org/hub/pytorch_vision_resnet/) and a final fully connected layer to perform the final classification. Using the `best_estimator()` it is possible to achive the best hyperparameters configuration.
 
-!['img/hyperparams.png']('./img/hyperparams.png')
+!['img/hyperparams.png']('hyperparams.png')
 
 The best hyperparameters was:
 
-!['img/Best.png']('./img/Best.png')
+!['img/Best.png']('Best.png')
 
 ## Debugging and Profiling
 
 The Loss decreased smoothly indicating a good training. The Model itself performed well withou any issues and the metric was satisfying.
 
-!['img/debugg.png']('./img/debugg.png')
+!['img/debugg.png']('debugg.png')
 
 ### Results
 
 The model performed very well achieving 95.4% of accuracy
 
-!['img/accuracy.png']('./img/accuracy.png')
+!['img/accuracy.png']('accuracy.png')
 
 
 ## Model Deployment
 The model is deployed using the following endpoint:
 
-!['img/endpoint.png']('./img/endpoint.png')
+!['img/endpoint.png']('endpoint.png')
 
 I have developed a simple function to load the data using its path and performing the inference:
 
-!['img/inference.png']('./img/inference.png')
+!['img/inference.png']('inference.png')
