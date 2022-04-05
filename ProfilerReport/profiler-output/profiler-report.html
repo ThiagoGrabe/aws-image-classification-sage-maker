@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head><meta charset="utf-8" />
-
-<title>profiler-report</title>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-
-<style type="text/css">
-    /*!
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   profiler-report
+  </title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js">
+  </script>
+  <style type="text/css">
+   /*!
 *
 * Twitter Bootstrap
 *
@@ -12945,9 +12945,9 @@ ul.typeahead-list  > li > a.pull-right {
   margin-top: 20px;
 }
 /*# sourceMappingURL=style.min.css.map */
-    </style>
-<style type="text/css">
-    pre { line-height: 125%; }
+  </style>
+  <style type="text/css">
+   pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
 span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
 td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
@@ -13021,11 +13021,9 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
-    </style>
-
-
-<style type="text/css">
-/* Overrides of notebook CSS for static HTML export */
+  </style>
+  <style type="text/css">
+   /* Overrides of notebook CSS for static HTML export */
 body {
   overflow: visible;
   padding: 8px;
@@ -13048,17 +13046,16 @@ div#notebook {
     page-break-inside: avoid; 
   }
 }
-</style>
-
-<!-- Custom stylesheet, it must be in the same directory as the html file -->
-<link rel="stylesheet" href="custom.css">
-
-<!-- Loading mathjax macro -->
-<!-- Load mathjax -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
-    <!-- MathJax configuration -->
-    <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
+  </style>
+  <!-- Custom stylesheet, it must be in the same directory as the html file -->
+  <link href="custom.css" rel="stylesheet"/>
+  <!-- Loading mathjax macro -->
+  <!-- Load mathjax -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML">
+  </script>
+  <!-- MathJax configuration -->
+  <script type="text/x-mathjax-config">
+   MathJax.Hub.Config({
         tex2jax: {
             inlineMath: [ ['$','$'], ["\\(","\\)"] ],
             displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
@@ -13073,42 +13070,48 @@ div#notebook {
             linebreaks: { automatic: true }
         }
     });
-    </script>
-    <!-- End of mathjax configuration --></head>
-<body>
-  <div tabindex="-1" id="notebook" class="border-box-sizing">
-    <div class="container" id="notebook-container">
-
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="SageMaker-Debugger-Profiling-Report">SageMaker Debugger Profiling Report<a class="anchor-link" href="#SageMaker-Debugger-Profiling-Report">&#182;</a></h1><p>SageMaker Debugger auto generated this report. You can generate similar reports on all supported training jobs. The report provides summary of training job, system resource usage statistics, framework metrics, rules summary, and detailed analysis from each rule. The graphs and tables are interactive.</p>
-<p><strong>Legal disclaimer:</strong> This report and any recommendations are provided for informational purposes only and are not definitive. You are responsible for making your own independent assessment of the information.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-output celltag_hide-input">
-
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-
-
-<div id="704c1046-0528-44f4-b921-50221ac441f0"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#704c1046-0528-44f4-b921-50221ac441f0');
+  </script>
+  <!-- End of mathjax configuration -->
+ </head>
+ <body>
+  <div class="border-box-sizing" id="notebook" tabindex="-1">
+   <div class="container" id="notebook-container">
+    <div class="cell border-box-sizing text_cell rendered">
+     <div class="prompt input_prompt">
+     </div>
+     <div class="inner_cell">
+      <div class="text_cell_render border-box-sizing rendered_html">
+       <h1 id="SageMaker-Debugger-Profiling-Report">
+        SageMaker Debugger Profiling Report
+        <a class="anchor-link" href="#SageMaker-Debugger-Profiling-Report">
+         ¶
+        </a>
+       </h1>
+       <p>
+        SageMaker Debugger auto generated this report. You can generate similar reports on all supported training jobs. The report provides summary of training job, system resource usage statistics, framework metrics, rules summary, and detailed analysis from each rule. The graphs and tables are interactive.
+       </p>
+       <p>
+        <strong>
+         Legal disclaimer:
+        </strong>
+        This report and any recommendations are provided for informational purposes only and are not definitive. You are responsible for making your own independent assessment of the information.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-output celltag_hide-input">
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+     <div class="output_wrapper">
+      <div class="output">
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div id="305e898d-d727-44e6-91a1-1e139f0b3623">
+        </div>
+        <div class="output_subarea output_javascript">
+         <script type="text/javascript">
+          var element = $('#305e898d-d727-44e6-91a1-1e139f0b3623');
 
 (function(root) {
   function now() {
@@ -13403,1539 +13406,1259 @@ var element = $('#704c1046-0528-44f4-b921-50221ac441f0');
     });
   }
 }(window));
-</script>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Training-job-summary">Training job summary<a class="anchor-link" href="#Training-job-summary">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input celltag_hide-output">
-
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-
-
-
-
-
-
-  <div class="bk-root" id="96fca1ab-2f64-4e6a-a392-1d4451860bb1" data-root-id="1052"></div>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-
-
-<div id="fed35c9b-8136-497d-a4ee-aa732a24cb33"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#fed35c9b-8136-497d-a4ee-aa732a24cb33');
-(function(root) {
-  function embed_document(root) {
-    
-  var docs_json = {"4a08c38f-1a3f-4d96-9a27-4900b6419d19":{"roots":{"references":[{"attributes":{"children":[{"id":"1050"},{"id":"1051"}]},"id":"1052","type":"Column"},{"attributes":{},"id":"1054","type":"UnionRenderers"},{"attributes":{"callback":null,"tooltips":"@phase:@value"},"id":"1024","type":"HoverTool"},{"attributes":{},"id":"1047","type":"Selection"},{"attributes":{"source":{"id":"1001"}},"id":"1005","type":"CDSView"},{"attributes":{"editor":{"id":"1056"},"field":"0","formatter":{"id":"1057"},"title":""},"id":"1002","type":"TableColumn"},{"attributes":{},"id":"1025","type":"WheelZoomTool"},{"attributes":{},"id":"1026","type":"ResetTool"},{"attributes":{"items":[{"id":"1049"}],"label_text_font_size":"8pt","location":"center_right"},"id":"1048","type":"Legend"},{"attributes":{},"id":"1046","type":"UnionRenderers"},{"attributes":{"data_source":{"id":"1035"},"glyph":{"id":"1037"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1038"},"selection_glyph":null,"view":{"id":"1040"}},"id":"1039","type":"GlyphRenderer"},{"attributes":{"data":{"0":["Start time","End time","Job duration","Training loop start","Training loop end","Training loop duration","Initialization time","Finalization time","Initialization","Training loop","Finalization"],"1":["11:59:01 03/12/2022","12:01:59 03/12/2022","178 seconds","12:00:05 03/12/2022","12:01:59 03/12/2022","114 seconds","64 seconds","0 seconds","35 %","64 %","0 %"],"index":[0,1,2,3,4,5,6,7,8,9,10]},"selected":{"id":"1055"},"selection_policy":{"id":"1054"}},"id":"1001","type":"ColumnDataSource"},{"attributes":{},"id":"1027","type":"PanTool"},{"attributes":{},"id":"1043","type":"BasicTickFormatter"},{"attributes":{"below":[{"id":"1016"}],"center":[{"id":"1019"},{"id":"1023"},{"id":"1048"}],"left":[{"id":"1020"}],"outline_line_color":"white","plot_height":350,"plot_width":500,"renderers":[{"id":"1039"}],"title":null,"toolbar":{"id":"1028"},"toolbar_location":null,"x_range":{"id":"1008"},"x_scale":{"id":"1012"},"y_range":{"id":"1010"},"y_scale":{"id":"1014"}},"id":"1006","subtype":"Figure","type":"Plot"},{"attributes":{"source":{"id":"1035"}},"id":"1040","type":"CDSView"},{"attributes":{},"id":"1010","type":"DataRange1d"},{"attributes":{"text":"The following table gives a summary about the training job. The table includes information about when the training job started and ended, how much time initialization, training loop and finalization took. \n Your training job started on 03/12/2022 at 11:59:01 and ran for 178 seconds.","width":800},"id":"1050","type":"Paragraph"},{"attributes":{},"id":"1012","type":"LinearScale"},{"attributes":{},"id":"1058","type":"StringEditor"},{"attributes":{"children":[{"id":"1004"},{"id":"1006"}]},"id":"1051","type":"Row"},{"attributes":{},"id":"1045","type":"BasicTickFormatter"},{"attributes":{},"id":"1021","type":"BasicTicker"},{"attributes":{"axis_label":null,"formatter":{"id":"1045"},"ticker":{"id":"1017"},"visible":false},"id":"1016","type":"LinearAxis"},{"attributes":{"field":"angle","include_zero":true},"id":"1033","type":"CumSum"},{"attributes":{},"id":"1014","type":"LinearScale"},{"attributes":{"end":0.3,"start":-0.3},"id":"1008","type":"Range1d"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1024"},{"id":"1025"},{"id":"1026"},{"id":"1027"}]},"id":"1028","type":"Toolbar"},{"attributes":{"end_angle":{"expr":{"id":"1034"},"units":"rad"},"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"radius":{"units":"data","value":0.15},"start_angle":{"expr":{"id":"1033"},"units":"rad"},"x":{"value":0},"y":{"value":0.0}},"id":"1038","type":"Wedge"},{"attributes":{"end_angle":{"expr":{"id":"1034"},"units":"rad"},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"units":"data","value":0.15},"start_angle":{"expr":{"id":"1033"},"units":"rad"},"x":{"value":0},"y":{"value":0.0}},"id":"1037","type":"Wedge"},{"attributes":{"label":{"field":"phase"},"renderers":[{"id":"1039"}]},"id":"1049","type":"LegendItem"},{"attributes":{},"id":"1017","type":"BasicTicker"},{"attributes":{"axis":{"id":"1016"},"grid_line_color":null,"ticker":null},"id":"1019","type":"Grid"},{"attributes":{"axis":{"id":"1020"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"1023","type":"Grid"},{"attributes":{},"id":"1055","type":"Selection"},{"attributes":{"editor":{"id":"1058"},"field":"1","formatter":{"id":"1059"},"title":"Job Statistics"},"id":"1003","type":"TableColumn"},{"attributes":{"axis_label":null,"formatter":{"id":"1043"},"ticker":{"id":"1021"},"visible":false},"id":"1020","type":"LinearAxis"},{"attributes":{},"id":"1056","type":"StringEditor"},{"attributes":{"columns":[{"id":"1002"},{"id":"1003"}],"height":380,"source":{"id":"1001"},"view":{"id":"1005"},"width":450},"id":"1004","type":"DataTable"},{"attributes":{},"id":"1057","type":"StringFormatter"},{"attributes":{"field":"angle"},"id":"1034","type":"CumSum"},{"attributes":{"data":{"angle":{"__ndarray__":"DiXyr0fFAUCRGkt8Vz8QQAAAAAAAAAAA","dtype":"float64","order":"little","shape":[3]},"color":["#440154","#208F8C","#FDE724"],"index":[0,1,2],"phase":["Initialization","Training loop","Finalization"],"value":[35,64,0]},"selected":{"id":"1047"},"selection_policy":{"id":"1046"}},"id":"1035","type":"ColumnDataSource"},{"attributes":{},"id":"1059","type":"StringFormatter"}],"root_ids":["1052"]},"title":"Bokeh Application","version":"2.2.3"}};
-  var render_items = [{"docid":"4a08c38f-1a3f-4d96-9a27-4900b6419d19","root_ids":["1052"],"roots":{"1052":"96fca1ab-2f64-4e6a-a392-1d4451860bb1"}}];
-  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
-
-  }
-  if (root.Bokeh !== undefined) {
-    embed_document(root);
-  } else {
-    var attempts = 0;
-    var timer = setInterval(function(root) {
-      if (root.Bokeh !== undefined) {
-        clearInterval(timer);
-        embed_document(root);
-      } else {
-        attempts++;
-        if (attempts > 100) {
-          clearInterval(timer);
-          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
-        }
-      }
-    }, 10, root)
-  }
-})(window);
-</script>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="System-usage-statistics">System usage statistics<a class="anchor-link" href="#System-usage-statistics">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-
-
-
-
-
-
-  <div class="bk-root" id="7644f7b3-07c7-4b26-905c-0814bc7da4fd" data-root-id="1145"></div>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-
-
-<div id="0e72310c-3e74-4902-bf0f-007579f530d6"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#0e72310c-3e74-4902-bf0f-007579f530d6');
-(function(root) {
-  function embed_document(root) {
-    
-  var docs_json = {"eb389b5c-5374-4090-9c27-09a72e300acf":{"roots":{"references":[{"attributes":{"children":[{"id":"1131"},{"id":"1132"},{"id":"1144"}]},"id":"1145","type":"Column"},{"attributes":{"editor":{"id":"1173"},"field":"p50","formatter":{"id":"1174"},"title":"p50"},"id":"1140","type":"TableColumn"},{"attributes":{},"id":"1168","type":"StringFormatter"},{"attributes":{"source":{"id":"1133"}},"id":"1143","type":"CDSView"},{"attributes":{},"id":"1163","type":"StringEditor"},{"attributes":{},"id":"1162","type":"StringFormatter"},{"attributes":{"columns":[{"id":"1134"},{"id":"1135"},{"id":"1136"},{"id":"1137"},{"id":"1138"},{"id":"1139"},{"id":"1140"},{"id":"1141"}],"height":120,"source":{"id":"1133"},"view":{"id":"1143"},"width":800},"id":"1142","type":"DataTable"},{"attributes":{"editor":{"id":"1165"},"field":"unit","formatter":{"id":"1166"},"title":"unit"},"id":"1136","type":"TableColumn"},{"attributes":{"text":"The following table shows statistics of resource utilization per worker (node), \n    such as the total CPU and GPU utilization, and the memory utilization on CPU and GPU. \n    The table also includes the total I/O wait time and the total amount of data sent or received in bytes.\n    The table shows min and max values as well as p99, p90 and p50 percentiles.","width":900},"id":"1132","type":"Paragraph"},{"attributes":{"editor":{"id":"1169"},"field":"p99","formatter":{"id":"1170"},"title":"p99"},"id":"1138","type":"TableColumn"},{"attributes":{"data":{"Node":["algo-1","algo-1","algo-1","algo-1"],"index":[0,1,2,3],"level_0":[0,1,2,3],"max":{"__ndarray__":"9ihc13fElkGkcD0K11NWQPYoXI/C9R5AhetRuB5lRUA=","dtype":"float64","order":"little","shape":[4]},"metric":["Network","CPU","CPU memory","I/O"],"min":{"__ndarray__":"AAAAAAAAAABcj8L1KFwrQHE9CtejcA9AAAAAAAAAAAA=","dtype":"float64","order":"little","shape":[4]},"p50":{"__ndarray__":"AAAAAAAAAACamZmZmflNQHE9CtejcBpAAAAAAAAAAAA=","dtype":"float64","order":"little","shape":[4]},"p95":{"__ndarray__":"AAAAAAAAAADsUbgehRtTQHsUrkfhehxACtejcD0KPUA=","dtype":"float64","order":"little","shape":[4]},"p99":{"__ndarray__":"MzMzMzPTskDsUbgehetUQI/C9Shcjx5AAAAAAADgQkA=","dtype":"float64","order":"little","shape":[4]},"unit":["bytes","percentage","percentage","percentage"]},"selected":{"id":"1160"},"selection_policy":{"id":"1159"}},"id":"1133","type":"ColumnDataSource"},{"attributes":{"editor":{"id":"1167"},"field":"max","formatter":{"id":"1168"},"title":"max"},"id":"1137","type":"TableColumn"},{"attributes":{"width":1100},"id":"1131","type":"Paragraph"},{"attributes":{"editor":{"id":"1161"},"field":"Node","formatter":{"id":"1162"},"title":"node"},"id":"1134","type":"TableColumn"},{"attributes":{"editor":{"id":"1163"},"field":"metric","formatter":{"id":"1164"},"title":"metric"},"id":"1135","type":"TableColumn"},{"attributes":{},"id":"1164","type":"StringFormatter"},{"attributes":{},"id":"1171","type":"StringEditor"},{"attributes":{"editor":{"id":"1175"},"field":"min","formatter":{"id":"1176"},"title":"min"},"id":"1141","type":"TableColumn"},{"attributes":{},"id":"1174","type":"StringFormatter"},{"attributes":{},"id":"1169","type":"StringEditor"},{"attributes":{},"id":"1176","type":"StringFormatter"},{"attributes":{},"id":"1160","type":"Selection"},{"attributes":{},"id":"1166","type":"StringFormatter"},{"attributes":{},"id":"1173","type":"StringEditor"},{"attributes":{},"id":"1167","type":"StringEditor"},{"attributes":{"children":[{"id":"1142"}]},"id":"1144","type":"Row"},{"attributes":{},"id":"1175","type":"StringEditor"},{"attributes":{},"id":"1159","type":"UnionRenderers"},{"attributes":{},"id":"1165","type":"StringEditor"},{"attributes":{},"id":"1170","type":"StringFormatter"},{"attributes":{},"id":"1172","type":"StringFormatter"},{"attributes":{"editor":{"id":"1171"},"field":"p95","formatter":{"id":"1172"},"title":"p95"},"id":"1139","type":"TableColumn"},{"attributes":{},"id":"1161","type":"StringEditor"}],"root_ids":["1145"]},"title":"Bokeh Application","version":"2.2.3"}};
-  var render_items = [{"docid":"eb389b5c-5374-4090-9c27-09a72e300acf","root_ids":["1145"],"roots":{"1145":"7644f7b3-07c7-4b26-905c-0814bc7da4fd"}}];
-  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
-
-  }
-  if (root.Bokeh !== undefined) {
-    embed_document(root);
-  } else {
-    var attempts = 0;
-    var timer = setInterval(function(root) {
-      if (root.Bokeh !== undefined) {
-        clearInterval(timer);
-        embed_document(root);
-      } else {
-        attempts++;
-        if (attempts > 100) {
-          clearInterval(timer);
-          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
-        }
-      }
-    }, 10, root)
-  }
-})(window);
-</script>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_markdown rendered_html output_subarea ">
-<h2 id="Framework-metrics-summary">Framework metrics summary<a class="anchor-link" href="#Framework-metrics-summary">&#182;</a></h2>
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-
-
-
-
-
-
-  <div class="bk-root" id="2be872a3-274c-419f-8647-25d8cbcb9d14" data-root-id="1314"></div>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-
-
-<div id="e5755634-98ce-4c33-b5b0-c528af06e078"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#e5755634-98ce-4c33-b5b0-c528af06e078');
-(function(root) {
-  function embed_document(root) {
-    
-  var docs_json = {"19f16546-2e27-4b8a-8fe9-6e840ed1a2e6":{"roots":{"references":[{"attributes":{"children":[{"id":"1312"},{"id":"1313"}]},"id":"1314","type":"Column"},{"attributes":{"text":"The ratio between the time spent on the TRAIN/EVAL phase and others"},"id":"1268","type":"Title"},{"attributes":{"source":{"id":"1297"}},"id":"1302","type":"CDSView"},{"attributes":{"items":[{"id":"1311"}],"label_text_font_size":"8pt","location":"center_right"},"id":"1310","type":"Legend"},{"attributes":{"end":0.8999999999999999,"start":-0.5},"id":"1270","type":"Range1d"},{"attributes":{},"id":"1305","type":"BasicTickFormatter"},{"attributes":{},"id":"1274","type":"LinearScale"},{"attributes":{"axis_label":null,"formatter":{"id":"1307"},"ticker":{"id":"1279"},"visible":false},"id":"1278","type":"LinearAxis"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1286"},{"id":"1287"},{"id":"1288"},{"id":"1289"}]},"id":"1290","type":"Toolbar"},{"attributes":{"data":{"angle":{"__ndarray__":"lJFGASE5GEB1cLNfShvNPw==","dtype":"float64","order":"little","shape":[2]},"color":["#440154","#FDE724"],"index":[0,1],"phase":["Step:ModeKeys.GLOBAL","others"],"value":{"__ndarray__":"A2iYg2AYWECh//KM7/MMQA==","dtype":"float64","order":"little","shape":[2]}},"selected":{"id":"1309"},"selection_policy":{"id":"1308"}},"id":"1297","type":"ColumnDataSource"},{"attributes":{"data_source":{"id":"1297"},"glyph":{"id":"1299"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1300"},"selection_glyph":null,"view":{"id":"1302"}},"id":"1301","type":"GlyphRenderer"},{"attributes":{},"id":"1308","type":"UnionRenderers"},{"attributes":{},"id":"1272","type":"DataRange1d"},{"attributes":{"text":"The following two pie charts show the time spent on the TRAIN phase, the EVAL phase, \n            and others. The 'others' includes the time spent between steps (after one step has finished and before\n            the next step has started). Ideally, most of the training time should be spent on the \n            TRAIN and EVAL phases. If TRAIN/EVAL were not specified in the training script, steps will be recorded as \n            GLOBAL.","width":1100},"id":"1312","type":"Paragraph"},{"attributes":{},"id":"1309","type":"Selection"},{"attributes":{"below":[{"id":"1278"}],"center":[{"id":"1281"},{"id":"1285"},{"id":"1310"}],"left":[{"id":"1282"}],"outline_line_color":"white","plot_height":350,"renderers":[{"id":"1301"}],"title":{"id":"1268"},"toolbar":{"id":"1290"},"x_range":{"id":"1270"},"x_scale":{"id":"1274"},"y_range":{"id":"1272"},"y_scale":{"id":"1276"}},"id":"1267","subtype":"Figure","type":"Plot"},{"attributes":{"field":"angle","include_zero":true},"id":"1295","type":"CumSum"},{"attributes":{"end_angle":{"expr":{"id":"1296"},"units":"rad"},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"units":"data","value":0.3},"start_angle":{"expr":{"id":"1295"},"units":"rad"},"x":{"value":0},"y":{"value":0.0}},"id":"1299","type":"Wedge"},{"attributes":{"label":{"field":"phase"},"renderers":[{"id":"1301"}]},"id":"1311","type":"LegendItem"},{"attributes":{},"id":"1279","type":"BasicTicker"},{"attributes":{"axis":{"id":"1278"},"grid_line_color":null,"ticker":null},"id":"1281","type":"Grid"},{"attributes":{"axis":{"id":"1282"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"1285","type":"Grid"},{"attributes":{"axis_label":null,"formatter":{"id":"1305"},"ticker":{"id":"1283"},"visible":false},"id":"1282","type":"LinearAxis"},{"attributes":{"end_angle":{"expr":{"id":"1296"},"units":"rad"},"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"radius":{"units":"data","value":0.3},"start_angle":{"expr":{"id":"1295"},"units":"rad"},"x":{"value":0},"y":{"value":0.0}},"id":"1300","type":"Wedge"},{"attributes":{},"id":"1276","type":"LinearScale"},{"attributes":{"field":"angle"},"id":"1296","type":"CumSum"},{"attributes":{"callback":null,"tooltips":"@phase:@value"},"id":"1286","type":"HoverTool"},{"attributes":{},"id":"1287","type":"WheelZoomTool"},{"attributes":{},"id":"1307","type":"BasicTickFormatter"},{"attributes":{"children":[{"id":"1267"}]},"id":"1313","type":"Row"},{"attributes":{},"id":"1289","type":"PanTool"},{"attributes":{},"id":"1288","type":"ResetTool"},{"attributes":{},"id":"1283","type":"BasicTicker"}],"root_ids":["1314"]},"title":"Bokeh Application","version":"2.2.3"}};
-  var render_items = [{"docid":"19f16546-2e27-4b8a-8fe9-6e840ed1a2e6","root_ids":["1314"],"roots":{"1314":"2be872a3-274c-419f-8647-25d8cbcb9d14"}}];
-  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
-
-  }
-  if (root.Bokeh !== undefined) {
-    embed_document(root);
-  } else {
-    var attempts = 0;
-    var timer = setInterval(function(root) {
-      if (root.Bokeh !== undefined) {
-        clearInterval(timer);
-        embed_document(root);
-      } else {
-        attempts++;
-        if (attempts > 100) {
-          clearInterval(timer);
-          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
-        }
-      }
-    }, 10, root)
-  }
-})(window);
-</script>
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-
-
-
-
-
-
-  <div class="bk-root" id="343e9913-c0e5-4d22-8871-9e3b4fccef4d" data-root-id="1480"></div>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-
-
-<div id="0e803fc9-e129-4627-b74f-d8355c273d0b"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#0e803fc9-e129-4627-b74f-d8355c273d0b');
-(function(root) {
-  function embed_document(root) {
-    
-  var docs_json = {"e2f3828c-4a76-46ce-a6f6-306011fa9d4c":{"roots":{"references":[{"attributes":{"children":[{"id":"1478"},{"id":"1479"}]},"id":"1480","type":"Column"},{"attributes":{"items":[{"id":"1432"}],"label_text_font_size":"8pt","location":"center_right"},"id":"1431","type":"Legend"},{"attributes":{"axis":{"id":"1448"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"1451","type":"Grid"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1452"},{"id":"1453"},{"id":"1454"},{"id":"1455"}]},"id":"1456","type":"Toolbar"},{"attributes":{},"id":"1428","type":"BasicTickFormatter"},{"attributes":{"text":"General framework operations"},"id":"1434","type":"Title"},{"attributes":{"end_angle":{"expr":{"id":"1417"},"units":"rad"},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"units":"data","value":0.3},"start_angle":{"expr":{"id":"1416"},"units":"rad"},"x":{"value":0},"y":{"value":0.0}},"id":"1420","type":"Wedge"},{"attributes":{},"id":"1400","type":"BasicTicker"},{"attributes":{},"id":"1475","type":"Selection"},{"attributes":{"end":0.8999999999999999,"start":-0.5},"id":"1436","type":"Range1d"},{"attributes":{},"id":"1404","type":"BasicTicker"},{"attributes":{"below":[{"id":"1399"}],"center":[{"id":"1402"},{"id":"1406"},{"id":"1431"}],"left":[{"id":"1403"}],"outline_line_color":"white","plot_height":350,"renderers":[{"id":"1422"}],"title":{"id":"1389"},"toolbar":{"id":"1411"},"x_range":{"id":"1391"},"x_scale":{"id":"1395"},"y_range":{"id":"1393"},"y_scale":{"id":"1397"}},"id":"1388","subtype":"Figure","type":"Plot"},{"attributes":{"source":{"id":"1463"}},"id":"1468","type":"CDSView"},{"attributes":{"field":"angle","include_zero":true},"id":"1461","type":"CumSum"},{"attributes":{"children":[{"id":"1388"},{"id":"1433"}]},"id":"1479","type":"Row"},{"attributes":{"text":"The following piechart shows a breakdown of the CPU/GPU operators. \n                It shows that 100% of training time was spent on executing the \"cpu_functions\" operator.","width":1100},"id":"1478","type":"Paragraph"},{"attributes":{"end_angle":{"expr":{"id":"1462"},"units":"rad"},"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"radius":{"units":"data","value":0.3},"start_angle":{"expr":{"id":"1461"},"units":"rad"},"x":{"value":0},"y":{"value":0.0}},"id":"1466","type":"Wedge"},{"attributes":{},"id":"1429","type":"UnionRenderers"},{"attributes":{"data":{"angle":{"__ndarray__":"5DpKwyFUhz+HlejJcVaEP7a1G6zoPPI/Q6Z23+t8FEA=","dtype":"float64","order":"little","shape":[4]},"color":["#440154","#30678D","#35B778","#FDE724"],"index":[0,1,2,3],"phase":["DataLoaderIterInitialize","DataLoaderIter","Forward","DataLoaderWorker"],"value":{"__ndarray__":"WiGS5ZY0xz/DX6Iz8jrEPw+b4+E/JDJA+376QjhhVEA=","dtype":"float64","order":"little","shape":[4]}},"selected":{"id":"1475"},"selection_policy":{"id":"1474"}},"id":"1463","type":"ColumnDataSource"},{"attributes":{"callback":null,"tooltips":"@phase:@value"},"id":"1452","type":"HoverTool"},{"attributes":{"axis_label":null,"formatter":{"id":"1426"},"ticker":{"id":"1404"},"visible":false},"id":"1403","type":"LinearAxis"},{"attributes":{"source":{"id":"1418"}},"id":"1423","type":"CDSView"},{"attributes":{"axis":{"id":"1403"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"1406","type":"Grid"},{"attributes":{},"id":"1426","type":"BasicTickFormatter"},{"attributes":{},"id":"1453","type":"WheelZoomTool"},{"attributes":{"end_angle":{"expr":{"id":"1462"},"units":"rad"},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"units":"data","value":0.3},"start_angle":{"expr":{"id":"1461"},"units":"rad"},"x":{"value":0},"y":{"value":0.0}},"id":"1465","type":"Wedge"},{"attributes":{"data_source":{"id":"1418"},"glyph":{"id":"1420"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1421"},"selection_glyph":null,"view":{"id":"1423"}},"id":"1422","type":"GlyphRenderer"},{"attributes":{"axis":{"id":"1399"},"grid_line_color":null,"ticker":null},"id":"1402","type":"Grid"},{"attributes":{},"id":"1454","type":"ResetTool"},{"attributes":{"axis":{"id":"1444"},"grid_line_color":null,"ticker":null},"id":"1447","type":"Grid"},{"attributes":{"callback":null,"tooltips":"@phase:@value"},"id":"1407","type":"HoverTool"},{"attributes":{"field":"angle"},"id":"1462","type":"CumSum"},{"attributes":{},"id":"1440","type":"LinearScale"},{"attributes":{"data":{"angle":{"__ndarray__":"GC1EVPshGUA=","dtype":"float64","order":"little","shape":[1]},"color":["#440154"],"index":[0],"phase":["cpu_functions"],"value":{"__ndarray__":"AAAAAAAAWUA=","dtype":"float64","order":"little","shape":[1]}},"selected":{"id":"1430"},"selection_policy":{"id":"1429"}},"id":"1418","type":"ColumnDataSource"},{"attributes":{},"id":"1455","type":"PanTool"},{"attributes":{},"id":"1474","type":"UnionRenderers"},{"attributes":{"end_angle":{"expr":{"id":"1417"},"units":"rad"},"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"radius":{"units":"data","value":0.3},"start_angle":{"expr":{"id":"1416"},"units":"rad"},"x":{"value":0},"y":{"value":0.0}},"id":"1421","type":"Wedge"},{"attributes":{"axis_label":null,"formatter":{"id":"1428"},"ticker":{"id":"1400"},"visible":false},"id":"1399","type":"LinearAxis"},{"attributes":{"axis_label":null,"formatter":{"id":"1471"},"ticker":{"id":"1449"},"visible":false},"id":"1448","type":"LinearAxis"},{"attributes":{},"id":"1438","type":"DataRange1d"},{"attributes":{},"id":"1445","type":"BasicTicker"},{"attributes":{},"id":"1473","type":"BasicTickFormatter"},{"attributes":{"below":[{"id":"1444"}],"center":[{"id":"1447"},{"id":"1451"},{"id":"1476"}],"left":[{"id":"1448"}],"outline_line_color":"white","plot_height":350,"renderers":[{"id":"1467"}],"title":{"id":"1434"},"toolbar":{"id":"1456"},"x_range":{"id":"1436"},"x_scale":{"id":"1440"},"y_range":{"id":"1438"},"y_scale":{"id":"1442"}},"id":"1433","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1393","type":"DataRange1d"},{"attributes":{"items":[{"id":"1477"}],"label_text_font_size":"8pt","location":"center_right"},"id":"1476","type":"Legend"},{"attributes":{},"id":"1408","type":"WheelZoomTool"},{"attributes":{},"id":"1449","type":"BasicTicker"},{"attributes":{"label":{"field":"phase"},"renderers":[{"id":"1467"}]},"id":"1477","type":"LegendItem"},{"attributes":{},"id":"1471","type":"BasicTickFormatter"},{"attributes":{},"id":"1395","type":"LinearScale"},{"attributes":{"data_source":{"id":"1463"},"glyph":{"id":"1465"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1466"},"selection_glyph":null,"view":{"id":"1468"}},"id":"1467","type":"GlyphRenderer"},{"attributes":{"axis_label":null,"formatter":{"id":"1473"},"ticker":{"id":"1445"},"visible":false},"id":"1444","type":"LinearAxis"},{"attributes":{},"id":"1397","type":"LinearScale"},{"attributes":{},"id":"1442","type":"LinearScale"},{"attributes":{"field":"angle"},"id":"1417","type":"CumSum"},{"attributes":{"end":0.8999999999999999,"start":-0.5},"id":"1391","type":"Range1d"},{"attributes":{},"id":"1410","type":"PanTool"},{"attributes":{},"id":"1430","type":"Selection"},{"attributes":{"text":"The ratio between the time spent on CPU/GPU operators"},"id":"1389","type":"Title"},{"attributes":{"label":{"field":"phase"},"renderers":[{"id":"1422"}]},"id":"1432","type":"LegendItem"},{"attributes":{},"id":"1409","type":"ResetTool"},{"attributes":{"field":"angle","include_zero":true},"id":"1416","type":"CumSum"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1407"},{"id":"1408"},{"id":"1409"},{"id":"1410"}]},"id":"1411","type":"Toolbar"}],"root_ids":["1480"]},"title":"Bokeh Application","version":"2.2.3"}};
-  var render_items = [{"docid":"e2f3828c-4a76-46ce-a6f6-306011fa9d4c","root_ids":["1480"],"roots":{"1480":"343e9913-c0e5-4d22-8871-9e3b4fccef4d"}}];
-  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
-
-  }
-  if (root.Bokeh !== undefined) {
-    embed_document(root);
-  } else {
-    var attempts = 0;
-    var timer = setInterval(function(root) {
-      if (root.Bokeh !== undefined) {
-        clearInterval(timer);
-        embed_document(root);
-      } else {
-        attempts++;
-        if (attempts > 100) {
-          clearInterval(timer);
-          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
-        }
-      }
-    }, 10, root)
-  }
-})(window);
-</script>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_markdown rendered_html output_subarea ">
-<h4 id="Overview:-CPU-operators">Overview: CPU operators<a class="anchor-link" href="#Overview:-CPU-operators">&#182;</a></h4>
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-
-
-
-
-
-
-  <div class="bk-root" id="a51a7913-a974-4ff0-a1cb-968e8674f5dc" data-root-id="1655"></div>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-
-
-<div id="e160a730-5112-464d-ac61-4afc5af7a0f5"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#e160a730-5112-464d-ac61-4afc5af7a0f5');
-(function(root) {
-  function embed_document(root) {
-    
-  var docs_json = {"92666192-e6c4-4a83-89d8-e591b62f2c9e":{"roots":{"references":[{"attributes":{"children":[{"id":"1609"},{"id":"1654"}]},"id":"1655","type":"Column"},{"attributes":{"editor":{"id":"1715"},"field":"operator","formatter":{"id":"1716"},"title":"CPU operator"},"id":"1606","type":"TableColumn"},{"attributes":{},"id":"1629","type":"WheelZoomTool"},{"attributes":{"callback":null,"tooltips":"@phase:@value"},"id":"1628","type":"HoverTool"},{"attributes":{},"id":"1630","type":"ResetTool"},{"attributes":{"end_angle":{"expr":{"id":"1638"},"units":"rad"},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"units":"data","value":0.3},"start_angle":{"expr":{"id":"1637"},"units":"rad"},"x":{"value":0},"y":{"value":0.0}},"id":"1641","type":"Wedge"},{"attributes":{},"id":"1651","type":"Selection"},{"attributes":{},"id":"1631","type":"PanTool"},{"attributes":{"data":{"index":[0,1,2,3,4,5,6,7,8],"operator":["aten::conv2d","aten::convolution","aten::_convolution","aten::mkldnn_convolution","aten::batch_norm","aten::_batch_norm_impl_index","aten::native_batch_norm","aten::max_pool2d","aten::max_pool2d_with_indices"],"percentage":{"__ndarray__":"CtejcD2KM0BI4XoUroczQEjhehSuhzNAw/UoXI+CM0BxPQrXo3AVQGZmZmZmZhVAXI/C9ShcFUCuR+F6FK4HQArXo3A9CgdA","dtype":"float64","order":"little","shape":[9]},"time":[4629011,4627733,4626595,4623522,1269570,1267595,1265634,701523,682495]},"selected":{"id":"1710"},"selection_policy":{"id":"1709"}},"id":"1603","type":"ColumnDataSource"},{"attributes":{"editor":{"id":"1711"},"field":"percentage","formatter":{"id":"1712"},"title":"Percentage"},"id":"1604","type":"TableColumn"},{"attributes":{},"id":"1713","type":"StringEditor"},{"attributes":{"axis":{"id":"1620"},"grid_line_color":null,"ticker":null},"id":"1623","type":"Grid"},{"attributes":{},"id":"1618","type":"LinearScale"},{"attributes":{"children":[{"id":"1607"},{"id":"1610"}]},"id":"1654","type":"Row"},{"attributes":{},"id":"1709","type":"UnionRenderers"},{"attributes":{"editor":{"id":"1713"},"field":"time","formatter":{"id":"1714"},"title":"Cumulative time in microseconds"},"id":"1605","type":"TableColumn"},{"attributes":{},"id":"1710","type":"Selection"},{"attributes":{},"id":"1625","type":"BasicTicker"},{"attributes":{},"id":"1616","type":"LinearScale"},{"attributes":{},"id":"1711","type":"StringEditor"},{"attributes":{"field":"angle","include_zero":true},"id":"1637","type":"CumSum"},{"attributes":{},"id":"1650","type":"UnionRenderers"},{"attributes":{"text":"The following table shows a list of operators that ran on the CPUs.\n        The most expensive operator on the CPUs was \"aten::conv2d\" with 19 %."},"id":"1609","type":"Paragraph"},{"attributes":{},"id":"1712","type":"StringFormatter"},{"attributes":{"source":{"id":"1639"}},"id":"1644","type":"CDSView"},{"attributes":{},"id":"1614","type":"DataRange1d"},{"attributes":{"axis":{"id":"1624"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"1627","type":"Grid"},{"attributes":{},"id":"1714","type":"StringFormatter"},{"attributes":{"end_angle":{"expr":{"id":"1638"},"units":"rad"},"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"radius":{"units":"data","value":0.3},"start_angle":{"expr":{"id":"1637"},"units":"rad"},"x":{"value":0},"y":{"value":0.0}},"id":"1642","type":"Wedge"},{"attributes":{"axis_label":null,"formatter":{"id":"1647"},"ticker":{"id":"1625"},"visible":false},"id":"1624","type":"LinearAxis"},{"attributes":{"label":{"field":"phase"},"renderers":[{"id":"1643"}]},"id":"1653","type":"LegendItem"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1628"},{"id":"1629"},{"id":"1630"},{"id":"1631"}]},"id":"1632","type":"Toolbar"},{"attributes":{},"id":"1715","type":"StringEditor"},{"attributes":{"axis_label":null,"formatter":{"id":"1649"},"ticker":{"id":"1621"},"visible":false},"id":"1620","type":"LinearAxis"},{"attributes":{"end":0.8999999999999999,"start":-0.5},"id":"1612","type":"Range1d"},{"attributes":{},"id":"1716","type":"StringFormatter"},{"attributes":{"data":{"angle":{"__ndarray__":"FOb70gCk8z9he890naLzP6RFggRhofM/u+GehQqe8z8GcpQW/4vVP0ZYql5qg9U/54YZOeV61T/cEqpv68/HPxanxiyTKsc/","dtype":"float64","order":"little","shape":[9]},"color":["#440154","#472B7A","#3B518A","#2C718E","#208F8C","#27AD80","#5BC862","#AADB32","#FDE724"],"index":[0,1,2,3,4,5,6,7,8],"phase":["aten::conv2d","aten::convolution","aten::_convolution","aten::mkldnn_convolution","aten::batch_norm","aten::_batch_norm_impl_index","aten::native_batch_norm","aten::max_pool2d","aten::max_pool2d_with_indices"],"value":{"__ndarray__":"cX6IgXKJM0BzcdkDEYgzQEPVZj/WhjNAxo/eQ4SDM0B29nH13G4VQMmrsddTZhVAbcE8N9pdFUBcFZ8yua8HQBJ8ZX9ACwdA","dtype":"float64","order":"little","shape":[9]}},"selected":{"id":"1651"},"selection_policy":{"id":"1650"}},"id":"1639","type":"ColumnDataSource"},{"attributes":{},"id":"1621","type":"BasicTicker"},{"attributes":{},"id":"1649","type":"BasicTickFormatter"},{"attributes":{"data_source":{"id":"1639"},"glyph":{"id":"1641"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1642"},"selection_glyph":null,"view":{"id":"1644"}},"id":"1643","type":"GlyphRenderer"},{"attributes":{"items":[{"id":"1653"}],"label_text_font_size":"8pt","location":"center_right"},"id":"1652","type":"Legend"},{"attributes":{},"id":"1647","type":"BasicTickFormatter"},{"attributes":{"columns":[{"id":"1604"},{"id":"1605"},{"id":"1606"}],"height":350,"source":{"id":"1603"},"view":{"id":"1608"},"width":550},"id":"1607","type":"DataTable"},{"attributes":{"field":"angle"},"id":"1638","type":"CumSum"},{"attributes":{"source":{"id":"1603"}},"id":"1608","type":"CDSView"},{"attributes":{"below":[{"id":"1620"}],"center":[{"id":"1623"},{"id":"1627"},{"id":"1652"}],"left":[{"id":"1624"}],"outline_line_color":"white","plot_height":350,"renderers":[{"id":"1643"}],"title":null,"toolbar":{"id":"1632"},"x_range":{"id":"1612"},"x_scale":{"id":"1616"},"y_range":{"id":"1614"},"y_scale":{"id":"1618"}},"id":"1610","subtype":"Figure","type":"Plot"}],"root_ids":["1655"]},"title":"Bokeh Application","version":"2.2.3"}};
-  var render_items = [{"docid":"92666192-e6c4-4a83-89d8-e591b62f2c9e","root_ids":["1655"],"roots":{"1655":"a51a7913-a974-4ff0-a1cb-968e8674f5dc"}}];
-  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
-
-  }
-  if (root.Bokeh !== undefined) {
-    embed_document(root);
-  } else {
-    var attempts = 0;
-    var timer = setInterval(function(root) {
-      if (root.Bokeh !== undefined) {
-        clearInterval(timer);
-        embed_document(root);
-      } else {
-        attempts++;
-        if (attempts > 100) {
-          clearInterval(timer);
-          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
-        }
-      }
-    }, 10, root)
-  }
-})(window);
-</script>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Rules-summary">Rules summary<a class="anchor-link" href="#Rules-summary">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_markdown rendered_html output_subarea ">
-<p>The following table shows a profiling summary of the Debugger built-in rules. 
-The table is sorted by the rules that triggered the most frequently. During your training job, the Dataloader rule
-was the most frequently triggered. It processed 94 datapoints and was triggered 1 times.</p>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: left;">
-      <th></th>
-      <th>Description</th>
-      <th>Recommendation</th>
-      <th>Number of times rule triggered</th>
-      <th>Number of datapoints</th>
-      <th>Rule parameters</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="text-align: left;">
-      <th>Dataloader</th>
-      <td>Checks how many data loaders are running in parallel and whether the total number is equal the number of available CPU cores. The rule triggers if number is much smaller or larger than the number of available cores. If too small, it might lead to low GPU utilization. If too large, it might impact other compute intensive operations on CPU.</td>
-      <td>Change the number of data loader processes.</td>
-      <td>1</td>
-      <td>94</td>
-      <td>min_threshold:70<br>max_threshold:200</td>
-    </tr>
-    <tr style="text-align: left;">
-      <th>StepOutlier</th>
-      <td>Detects outliers in step duration. The step duration for forward and backward pass should be roughly the same throughout the training. If there are significant outliers, it may indicate a system stall or bottleneck issues.</td>
-      <td>Check if there are any bottlenecks (CPU, I/O) correlated to the step outliers.</td>
-      <td>0</td>
-      <td>128</td>
-      <td>threshold:3<br>mode:None<br>n_outliers:10<br>stddev:3</td>
-    </tr>
-    <tr style="text-align: left;">
-      <th>GPUMemoryIncrease</th>
-      <td>Measures the average GPU memory footprint and triggers if there is a large increase.</td>
-      <td>Choose a larger instance type with more memory if footprint is close to maximum available memory.</td>
-      <td>0</td>
-      <td>0</td>
-      <td>increase:5<br>patience:1000<br>window:10</td>
-    </tr>
-    <tr style="text-align: left;">
-      <th>CPUBottleneck</th>
-      <td>Checks if the CPU utilization is high and the GPU utilization is low. It might indicate CPU bottlenecks, where the GPUs are waiting for data to arrive from the CPUs. The rule evaluates the CPU and GPU utilization rates, and triggers the issue if the time spent on the CPU bottlenecks exceeds a threshold percent of the total training time. The default threshold is 50 percent.</td>
-      <td>Consider increasing the number of data loaders or applying data pre-fetching.</td>
-      <td>0</td>
-      <td>360</td>
-      <td>threshold:50<br>cpu_threshold:90<br>gpu_threshold:10<br>patience:1000</td>
-    </tr>
-    <tr style="text-align: left;">
-      <th>BatchSize</th>
-      <td>Checks if GPUs are underutilized because the batch size is too small. To detect this problem, the rule analyzes the average GPU memory footprint, the CPU and the GPU utilization.</td>
-      <td>The batch size is too small, and GPUs are underutilized. Consider running on a smaller instance type or increasing the batch size.</td>
-      <td>0</td>
-      <td>357</td>
-      <td>cpu_threshold_p95:70<br>gpu_threshold_p95:70<br>gpu_memory_threshold_p95:70<br>patience:1000<br>window:500</td>
-    </tr>
-    <tr style="text-align: left;">
-      <th>IOBottleneck</th>
-      <td>Checks if the data I/O wait time is high and the GPU utilization is low. It might indicate IO bottlenecks where GPU is waiting for data to arrive from storage. The rule evaluates the I/O and GPU utilization rates and triggers the issue if the time spent on the IO bottlenecks exceeds a threshold percent of the total training time. The default threshold is 50 percent.</td>
-      <td>Pre-fetch data or choose different file formats, such as binary formats that improve I/O performance.</td>
-      <td>0</td>
-      <td>360</td>
-      <td>threshold:50<br>io_threshold:50<br>gpu_threshold:10<br>patience:1000</td>
-    </tr>
-    <tr style="text-align: left;">
-      <th>MaxInitializationTime</th>
-      <td>Checks if the time spent on initialization exceeds a threshold percent of the total training time. The rule waits until the first step of training loop starts. The initialization can take longer if downloading the entire dataset from Amazon S3 in File mode. The default threshold is 20 minutes.</td>
-      <td>Initialization takes too long. If using File mode, consider switching to Pipe mode in case you are using TensorFlow framework.</td>
-      <td>0</td>
-      <td>128</td>
-      <td>threshold:20</td>
-    </tr>
-    <tr style="text-align: left;">
-      <th>LoadBalancing</th>
-      <td>Detects workload balancing issues across GPUs. Workload imbalance can occur in training jobs with data parallelism. The gradients are accumulated on a primary GPU, and this GPU might be overused with regard to other GPUs, resulting in reducing the efficiency of data parallelization.</td>
-      <td>Choose a different distributed training strategy or a different distributed training framework.</td>
-      <td>0</td>
-      <td>0</td>
-      <td>threshold:0.2<br>patience:1000</td>
-    </tr>
-    <tr style="text-align: left;">
-      <th>LowGPUUtilization</th>
-      <td>Checks if the GPU utilization is low or fluctuating. This can happen due to bottlenecks, blocking calls for synchronizations, or a small batch size.</td>
-      <td>Check if there are bottlenecks, minimize blocking calls, change distributed training strategy, or increase the batch size.</td>
-      <td>0</td>
-      <td>0</td>
-      <td>threshold_p95:70<br>threshold_p5:10<br>window:500<br>patience:1000</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_markdown rendered_html output_subarea ">
-<h2 id="Analyzing-the-training-loop">Analyzing the training loop<a class="anchor-link" href="#Analyzing-the-training-loop">&#182;</a></h2>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_markdown rendered_html output_subarea ">
-<h3 id="Step-duration-analysis">Step duration analysis<a class="anchor-link" href="#Step-duration-analysis">&#182;</a></h3>
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-
-
-
-
-
-
-  <div class="bk-root" id="9ec4d742-2612-4992-8318-7a54170b2de8" data-root-id="1799"></div>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-
-
-<div id="a9647fa4-d094-461a-bc7a-0faa48dbf445"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#a9647fa4-d094-461a-bc7a-0faa48dbf445');
-(function(root) {
-  function embed_document(root) {
-    
-  var docs_json = {"0f6337f6-0aa8-43d2-adab-30400630cea7":{"roots":{"references":[{"attributes":{"children":[{"id":"1798"}]},"id":"1799","type":"Column"},{"attributes":{"text":"The StepOutlier rule measures step durations and checks for outliers. The rule \n        returns True if duration is larger than 3 times the standard deviation. The rule \n        also takes the parameter mode, that specifies whether steps from training or validation phase \n        should be checked. In your processing job mode was specified as None. \n        Typically the first step is taking significantly more time and to avoid the \n        rule triggering immediately, one can use n_outliers to specify the number of outliers to ignore. \n        n_outliers was set to 10.\n        The rule analysed 128 datapoints and triggered 0 times.\n        ","width":900},"id":"1798","type":"Paragraph"}],"root_ids":["1799"]},"title":"Bokeh Application","version":"2.2.3"}};
-  var render_items = [{"docid":"0f6337f6-0aa8-43d2-adab-30400630cea7","root_ids":["1799"],"roots":{"1799":"9ec4d742-2612-4992-8318-7a54170b2de8"}}];
-  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
-
-  }
-  if (root.Bokeh !== undefined) {
-    embed_document(root);
-  } else {
-    var attempts = 0;
-    var timer = setInterval(function(root) {
-      if (root.Bokeh !== undefined) {
-        clearInterval(timer);
-        embed_document(root);
-      } else {
-        attempts++;
-        if (attempts > 100) {
-          clearInterval(timer);
-          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
-        }
-      }
-    }, 10, root)
-  }
-})(window);
-</script>
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_markdown rendered_html output_subarea ">
-<p><strong>Step durations on node algo-1-26:</strong></p>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_markdown rendered_html output_subarea ">
-<p>The following table is a summary of the statistics of step durations measured on node algo-1-26.
-                The rule has analyzed the step duration from Step:ModeKeys.GLOBAL phase.
-                The average step duration on node algo-1-26 was 0.84s. 
-                The rule detected 7 outliers, where step duration was larger than 3 times the standard deviation of 0.47s</p>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>mean</th>
-      <th>max</th>
-      <th>p99</th>
-      <th>p95</th>
-      <th>p50</th>
-      <th>min</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="text-align: left;">
-      <th>Step Durations in [s]</th>
-      <td>0.84</td>
-      <td>2.74</td>
-      <td>2.71</td>
-      <td>2.42</td>
-      <td>0.75</td>
-      <td>0.38</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_markdown rendered_html output_subarea ">
-<p>The following histogram shows the step durations measured on the different nodes. 
-                You can turn on or turn off the visualization of histograms by selecting or unselecting the labels in the legend.</p>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-
-
-
-
-
-
-  <div class="bk-root" id="344736f6-d0ac-4cdf-a206-f96146bf1407" data-root-id="1867"></div>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-
-
-<div id="db771d4a-78e6-41fc-9580-9647b2e74f5f"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#db771d4a-78e6-41fc-9580-9647b2e74f5f');
-(function(root) {
-  function embed_document(root) {
-    
-  var docs_json = {"ebb37c91-2cac-4d4a-8b5f-c231fc3fa34b":{"roots":{"references":[{"attributes":{"below":[{"id":"1878"}],"center":[{"id":"1881"},{"id":"1885"},{"id":"1913"}],"left":[{"id":"1882"}],"plot_height":450,"plot_width":850,"renderers":[{"id":"1903"}],"right":[{"id":"1915"}],"title":{"id":"1868"},"toolbar":{"id":"1893"},"x_range":{"id":"1870"},"x_scale":{"id":"1874"},"y_range":{"id":"1872"},"y_scale":{"id":"1876"}},"id":"1867","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1886","type":"PanTool"},{"attributes":{},"id":"1911","type":"Selection"},{"attributes":{"click_policy":"hide","location":"center_right"},"id":"1915","type":"Legend"},{"attributes":{"axis_label":"Step durations in [s]","formatter":{"id":"1909"},"ticker":{"id":"1879"}},"id":"1878","type":"LinearAxis"},{"attributes":{},"id":"1876","type":"LinearScale"},{"attributes":{"label":{"value":"algo-1-26"},"renderers":[{"id":"1903"}]},"id":"1914","type":"LegendItem"},{"attributes":{"start":0},"id":"1872","type":"DataRange1d"},{"attributes":{"axis":{"id":"1878"},"grid_line_color":"white","ticker":null},"id":"1881","type":"Grid"},{"attributes":{"axis":{"id":"1882"},"dimension":1,"grid_line_color":"white","ticker":null},"id":"1885","type":"Grid"},{"attributes":{"bottom":{"value":0},"fill_alpha":{"value":0.1},"fill_color":{"value":"#440154"},"left":{"field":"left"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"right":{"field":"right"},"top":{"field":"top"}},"id":"1902","type":"Quad"},{"attributes":{},"id":"1883","type":"BasicTicker"},{"attributes":{"axis_label":"Occurrences","formatter":{"id":"1907"},"ticker":{"id":"1883"}},"id":"1882","type":"LinearAxis"},{"attributes":{"data":{"left":[0.383425,0.40193493,0.42044486000000003,0.43895479000000004,0.45746472,0.47597465,0.49448458,0.51299451,0.53150444,0.55001437,0.5685243,0.58703423,0.60554416,0.62405409,0.64256402,0.66107395,0.67958388,0.69809381,0.71660374,0.7351136699999999,0.7536236,0.77213353,0.79064346,0.80915339,0.82766332,0.8461732499999999,0.8646831799999999,0.8831931099999999,0.9017030399999999,0.9202129699999999,0.9387228999999999,0.9572328299999999,0.9757427599999999,0.9942526899999999,1.01276262,1.03127255,1.04978248,1.06829241,1.0868023399999998,1.1053122699999998,1.1238221999999998,1.1423321299999998,1.1608420599999998,1.1793519899999998,1.1978619199999998,1.2163718499999998,1.2348817799999998,1.2533917099999998,1.2719016399999998,1.2904115699999998,1.3089214999999998,1.3274314299999999,1.3459413599999999,1.3644512899999999,1.3829612199999999,1.4014711499999999,1.41998108,1.43849101,1.45700094,1.47551087,1.4940208,1.51253073,1.53104066,1.54955059,1.56806052,1.58657045,1.60508038,1.62359031,1.64210024,1.66061017,1.6791201,1.69763003,1.71613996,1.73464989,1.75315982,1.7716697499999996,1.7901796799999996,1.8086896099999996,1.8271995399999996,1.8457094699999996,1.8642193999999996,1.8827293299999996,1.9012392599999997,1.9197491899999997,1.9382591199999997,1.9567690499999997,1.9752789799999997,1.9937889099999997,2.0122988399999997,2.0308087699999997,2.0493186999999997,2.0678286299999997,2.0863385599999997,2.1048484899999997,2.1233584199999997,2.1418683499999998,2.1603782799999998,2.1788882099999998,2.1973981399999998,2.21590807],"right":[0.40193493,0.42044486000000003,0.43895479000000004,0.45746472,0.47597465,0.49448458,0.51299451,0.53150444,0.55001437,0.5685243,0.58703423,0.60554416,0.62405409,0.64256402,0.66107395,0.67958388,0.69809381,0.71660374,0.7351136699999999,0.7536236,0.77213353,0.79064346,0.80915339,0.82766332,0.8461732499999999,0.8646831799999999,0.8831931099999999,0.9017030399999999,0.9202129699999999,0.9387228999999999,0.9572328299999999,0.9757427599999999,0.9942526899999999,1.01276262,1.03127255,1.04978248,1.06829241,1.0868023399999998,1.1053122699999998,1.1238221999999998,1.1423321299999998,1.1608420599999998,1.1793519899999998,1.1978619199999998,1.2163718499999998,1.2348817799999998,1.2533917099999998,1.2719016399999998,1.2904115699999998,1.3089214999999998,1.3274314299999999,1.3459413599999999,1.3644512899999999,1.3829612199999999,1.4014711499999999,1.41998108,1.43849101,1.45700094,1.47551087,1.4940208,1.51253073,1.53104066,1.54955059,1.56806052,1.58657045,1.60508038,1.62359031,1.64210024,1.66061017,1.6791201,1.69763003,1.71613996,1.73464989,1.75315982,1.7716697499999996,1.7901796799999996,1.8086896099999996,1.8271995399999996,1.8457094699999996,1.8642193999999996,1.8827293299999996,1.9012392599999997,1.9197491899999997,1.9382591199999997,1.9567690499999997,1.9752789799999997,1.9937889099999997,2.0122988399999997,2.0308087699999997,2.0493186999999997,2.0678286299999997,2.0863385599999997,2.1048484899999997,2.1233584199999997,2.1418683499999998,2.1603782799999998,2.1788882099999998,2.1973981399999998,2.21590807,2.234418],"top":[2,2,1,0,1,3,3,0,0,1,1,9,8,2,3,3,3,3,5,15,8,7,19,3,1,1,1,4,3,1,2,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]},"selected":{"id":"1911"},"selection_policy":{"id":"1910"}},"id":"1900","type":"ColumnDataSource"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"1892","type":"BoxAnnotation"},{"attributes":{"source":{"id":"1900"}},"id":"1904","type":"CDSView"},{"attributes":{"bottom":{"value":0},"fill_alpha":{"value":0.7},"fill_color":{"value":"#440154"},"left":{"field":"left"},"line_color":{"value":"white"},"right":{"field":"right"},"top":{"field":"top"}},"id":"1901","type":"Quad"},{"attributes":{},"id":"1910","type":"UnionRenderers"},{"attributes":{"text":"Step durations"},"id":"1868","type":"Title"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1886"},{"id":"1887"},{"id":"1888"},{"id":"1889"},{"id":"1890"},{"id":"1891"}]},"id":"1893","type":"Toolbar"},{"attributes":{},"id":"1887","type":"WheelZoomTool"},{"attributes":{},"id":"1874","type":"LinearScale"},{"attributes":{"overlay":{"id":"1892"}},"id":"1888","type":"BoxZoomTool"},{"attributes":{"click_policy":"hide","items":[{"id":"1914"}],"location":"center_right"},"id":"1913","type":"Legend"},{"attributes":{},"id":"1879","type":"BasicTicker"},{"attributes":{},"id":"1889","type":"SaveTool"},{"attributes":{},"id":"1891","type":"HelpTool"},{"attributes":{},"id":"1907","type":"BasicTickFormatter"},{"attributes":{},"id":"1890","type":"ResetTool"},{"attributes":{},"id":"1909","type":"BasicTickFormatter"},{"attributes":{"data_source":{"id":"1900"},"glyph":{"id":"1901"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1902"},"selection_glyph":null,"view":{"id":"1904"}},"id":"1903","type":"GlyphRenderer"},{"attributes":{},"id":"1870","type":"DataRange1d"}],"root_ids":["1867"]},"title":"Bokeh Application","version":"2.2.3"}};
-  var render_items = [{"docid":"ebb37c91-2cac-4d4a-8b5f-c231fc3fa34b","root_ids":["1867"],"roots":{"1867":"344736f6-d0ac-4cdf-a206-f96146bf1407"}}];
-  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
-
-  }
-  if (root.Bokeh !== undefined) {
-    embed_document(root);
-  } else {
-    var attempts = 0;
-    var timer = setInterval(function(root) {
-      if (root.Bokeh !== undefined) {
-        clearInterval(timer);
-        embed_document(root);
-      } else {
-        attempts++;
-        if (attempts > 100) {
-          clearInterval(timer);
-          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
-        }
-      }
-    }, 10, root)
-  }
-})(window);
-</script>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_markdown rendered_html output_subarea ">
-<h3 id="GPU-utilization-analysis">GPU utilization analysis<a class="anchor-link" href="#GPU-utilization-analysis">&#182;</a></h3>
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_markdown rendered_html output_subarea ">
-<p><strong>Usage per GPU</strong></p>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-
-
-
-
-
-
-  <div class="bk-root" id="807d8565-a5ab-431d-95a1-c804a9c7075a" data-root-id="2031"></div>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-
-
-<div id="950cc86d-5b65-41dc-846a-0d36fa1d458f"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#950cc86d-5b65-41dc-846a-0d36fa1d458f');
-(function(root) {
-  function embed_document(root) {
-    
-  var docs_json = {"e8955dd1-fb88-4e19-ac9d-f70c23c05da6":{"roots":{"references":[{"attributes":{"text":"The LowGPUUtilization rule checks for a low and fluctuating GPU usage. If the GPU usage is \n        consistently low, it might be caused by bottlenecks or a small batch size. If usage is heavily \n        fluctuating, it can be due to bottlenecks or blocking calls. The rule computed the 95th and 5th \n        percentile of GPU utilization on 500 continuous datapoints and found 0 cases where \n        p95 was above 70% and p5 was below 10%. If p95 is high and p5 is low,\n        it might indicate that the GPU usage is highly fluctuating. If both values are very low, \n        it would mean that the machine is underutilized. During initialization, the GPU usage is likely zero, \n        so the rule skipped the first 1000 data points.\n        The rule analysed 0 datapoints and triggered 0 times.","width":800},"id":"2031","type":"Paragraph"}],"root_ids":["2031"]},"title":"Bokeh Application","version":"2.2.3"}};
-  var render_items = [{"docid":"e8955dd1-fb88-4e19-ac9d-f70c23c05da6","root_ids":["2031"],"roots":{"2031":"807d8565-a5ab-431d-95a1-c804a9c7075a"}}];
-  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
-
-  }
-  if (root.Bokeh !== undefined) {
-    embed_document(root);
-  } else {
-    var attempts = 0;
-    var timer = setInterval(function(root) {
-      if (root.Bokeh !== undefined) {
-        clearInterval(timer);
-        embed_document(root);
-      } else {
-        attempts++;
-        if (attempts > 100) {
-          clearInterval(timer);
-          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
-        }
-      }
-    }, 10, root)
-  }
-})(window);
-</script>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_markdown rendered_html output_subarea ">
-<p><strong>Workload balancing</strong></p>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-
-
-
-
-
-
-  <div class="bk-root" id="bcd81fc5-f924-4c79-9831-e39027329981" data-root-id="2107"></div>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-
-
-<div id="fc408c15-9ae8-4562-a02e-75f17f123952"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#fc408c15-9ae8-4562-a02e-75f17f123952');
-(function(root) {
-  function embed_document(root) {
-    
-  var docs_json = {"bbbfc4cf-cc04-4064-8812-0247ec995bbd":{"roots":{"references":[{"attributes":{"text":"The LoadBalancing rule helps to detect issues in workload balancing \n        between multiple GPUs. \n        It computes a histogram of GPU utilization values for each GPU and compares then the \n        similarity between histograms. The rule checked if the distance of histograms is larger than the \n        threshold of 0.2.\n        During initialization utilization is likely zero, so the rule skipped the first 1000 data points.\n        ","width":900},"id":"2107","type":"Paragraph"}],"root_ids":["2107"]},"title":"Bokeh Application","version":"2.2.3"}};
-  var render_items = [{"docid":"bbbfc4cf-cc04-4064-8812-0247ec995bbd","root_ids":["2107"],"roots":{"2107":"bcd81fc5-f924-4c79-9831-e39027329981"}}];
-  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
-
-  }
-  if (root.Bokeh !== undefined) {
-    embed_document(root);
-  } else {
-    var attempts = 0;
-    var timer = setInterval(function(root) {
-      if (root.Bokeh !== undefined) {
-        clearInterval(timer);
-        embed_document(root);
-      } else {
-        attempts++;
-        if (attempts > 100) {
-          clearInterval(timer);
-          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
-        }
-      }
-    }, 10, root)
-  }
-})(window);
-</script>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_markdown rendered_html output_subarea ">
-<h3 id="Dataloading-analysis">Dataloading analysis<a class="anchor-link" href="#Dataloading-analysis">&#182;</a></h3>
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-
-
-
-
-
-
-  <div class="bk-root" id="f4501989-e709-450c-bcee-5cbe40725803" data-root-id="2183"></div>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-
-
-<div id="d15b1547-d04d-4f63-b9bd-68e3b9f1db7b"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#d15b1547-d04d-4f63-b9bd-68e3b9f1db7b');
-(function(root) {
-  function embed_document(root) {
-    
-  var docs_json = {"b9715967-f22a-47bb-8ec3-e42ad7262860":{"roots":{"references":[{"attributes":{"text":"The number of dataloader workers can greatly affect the overall performance \n        of your training job. The rule analyzed the number of dataloading processes that have been running in \n        parallel on the training instance and compares it against the total number of cores. \n        The rule checked if the number of processes is smaller than 70% or larger than \n        200% the total number of cores. Having too few dataloader workers can slowdown data preprocessing and lead to GPU \n        underutilization. Having too many dataloader workers may hurt the\n        overall performance if you are running other compute intensive tasks on the CPU.\n        The rule analysed 94 datapoints and triggered 1 times.","width":900},"id":"2183","type":"Paragraph"}],"root_ids":["2183"]},"title":"Bokeh Application","version":"2.2.3"}};
-  var render_items = [{"docid":"b9715967-f22a-47bb-8ec3-e42ad7262860","root_ids":["2183"],"roots":{"2183":"f4501989-e709-450c-bcee-5cbe40725803"}}];
-  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
-
-  }
-  if (root.Bokeh !== undefined) {
-    embed_document(root);
-  } else {
-    var attempts = 0;
-    var timer = setInterval(function(root) {
-      if (root.Bokeh !== undefined) {
-        clearInterval(timer);
-        embed_document(root);
-      } else {
-        attempts++;
-        if (attempts > 100) {
-          clearInterval(timer);
-          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
-        }
-      }
-    }, 10, root)
-  }
-})(window);
-</script>
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-
-
-
-
-
-
-  <div class="bk-root" id="0677ab45-ac04-4ed3-915d-9c2f5ef114dd" data-root-id="2259"></div>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-
-
-<div id="b4558954-a9d2-4c44-8c23-f4c66ca79a29"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#b4558954-a9d2-4c44-8c23-f4c66ca79a29');
-(function(root) {
-  function embed_document(root) {
-    
-  var docs_json = {"44726689-db52-494b-a7eb-e397b242fee8":{"roots":{"references":[{"attributes":{"text":" Your training instance provided 8 CPU cores, however your training job only \n                ran on average 4 dataloader workers in parallel. We recommend you to increase the number of\n                dataloader workers. Using pinned memory also improves performance because it enables fast data transfer to CUDA-enabled GPUs.\n            The rule detected that your training job was not using pinned memory. \n            In case of using PyTorch Dataloader, you can enable this by setting pin_memory=True.","width":900},"id":"2259","type":"Paragraph"}],"root_ids":["2259"]},"title":"Bokeh Application","version":"2.2.3"}};
-  var render_items = [{"docid":"44726689-db52-494b-a7eb-e397b242fee8","root_ids":["2259"],"roots":{"2259":"0677ab45-ac04-4ed3-915d-9c2f5ef114dd"}}];
-  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
-
-  }
-  if (root.Bokeh !== undefined) {
-    embed_document(root);
-  } else {
-    var attempts = 0;
-    var timer = setInterval(function(root) {
-      if (root.Bokeh !== undefined) {
-        clearInterval(timer);
-        embed_document(root);
-      } else {
-        attempts++;
-        if (attempts > 100) {
-          clearInterval(timer);
-          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
-        }
-      }
-    }, 10, root)
-  }
-})(window);
-</script>
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-
-
-
-
-
-
-  <div class="bk-root" id="999f86d5-775d-4d22-80b7-bf3691997b65" data-root-id="2377"></div>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-
-
-<div id="13394cb5-2837-4b41-a4da-3d787df6a0b5"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#13394cb5-2837-4b41-a4da-3d787df6a0b5');
-(function(root) {
-  function embed_document(root) {
-    
-  var docs_json = {"14d6894e-60a7-46eb-9b8f-ba451adcb520":{"roots":{"references":[{"attributes":{"children":[{"id":"2376"},{"id":"2335"}]},"id":"2377","type":"Column"},{"attributes":{"axis_label":"Dataloading in [s]","formatter":{"id":"2371"},"ticker":{"id":"2345"}},"id":"2344","type":"LinearAxis"},{"attributes":{},"id":"2342","type":"LinearScale"},{"attributes":{},"id":"2369","type":"BasicTickFormatter"},{"attributes":{},"id":"2353","type":"WheelZoomTool"},{"attributes":{},"id":"2354","type":"ResetTool"},{"attributes":{},"id":"2345","type":"BasicTicker"},{"attributes":{},"id":"2355","type":"PanTool"},{"attributes":{"text":""},"id":"2366","type":"Title"},{"attributes":{},"id":"2371","type":"BasicTickFormatter"},{"attributes":{"text":"The following histogram shows the distribution of dataloading times that have been measured throughout your training job. The median dataloading time was 4.1379s. \n            The 95th percentile was 6.4804s and the 25th percentile was 3.9768s","width":900},"id":"2376","type":"Paragraph"},{"attributes":{},"id":"2349","type":"BasicTicker"},{"attributes":{"source":{"id":"2361"}},"id":"2365","type":"CDSView"},{"attributes":{"end":19.693616,"start":4.8e-05},"id":"2336","type":"Range1d"},{"attributes":{},"id":"2373","type":"Selection"},{"attributes":{},"id":"2340","type":"LinearScale"},{"attributes":{"label":{"value":"Dataloading events"},"renderers":[{"id":"2364"}]},"id":"2375","type":"LegendItem"},{"attributes":{"below":[{"id":"2344"}],"center":[{"id":"2347"},{"id":"2351"},{"id":"2374"}],"left":[{"id":"2348"}],"plot_height":450,"plot_width":850,"renderers":[{"id":"2364"}],"title":{"id":"2366"},"toolbar":{"id":"2356"},"x_range":{"id":"2336"},"x_scale":{"id":"2340"},"y_range":{"id":"2338"},"y_scale":{"id":"2342"}},"id":"2335","subtype":"Figure","type":"Plot"},{"attributes":{"start":0},"id":"2338","type":"DataRange1d"},{"attributes":{"click_policy":"hide","items":[{"id":"2375"}]},"id":"2374","type":"Legend"},{"attributes":{"callback":null},"id":"2352","type":"HoverTool"},{"attributes":{},"id":"2372","type":"UnionRenderers"},{"attributes":{"axis":{"id":"2344"},"grid_line_color":"white","ticker":null},"id":"2347","type":"Grid"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"2352"},{"id":"2353"},{"id":"2354"},{"id":"2355"}]},"id":"2356","type":"Toolbar"},{"attributes":{"axis_label":"Occurrences","formatter":{"id":"2369"},"ticker":{"id":"2349"}},"id":"2348","type":"LinearAxis"},{"attributes":{"axis":{"id":"2348"},"dimension":1,"grid_line_color":"white","ticker":null},"id":"2351","type":"Grid"},{"attributes":{"data_source":{"id":"2361"},"glyph":{"id":"2362"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"2363"},"selection_glyph":null,"view":{"id":"2365"}},"id":"2364","type":"GlyphRenderer"},{"attributes":{"data":{"left":[4.8e-05,0.19698368,0.39391936,0.5908550400000001,0.78779072,0.9847264,1.1816620800000002,1.3785977600000001,1.57553344,1.77246912,1.9694048,2.16634048,2.3632761600000003,2.56021184,2.75714752,2.9540832,3.15101888,3.3479545600000002,3.54489024,3.74182592,3.9387616,4.13569728,4.33263296,4.52956864,4.72650432,4.923439999999999,5.1203756799999995,5.31731136,5.51424704,5.71118272,5.908118399999999,6.1050540799999995,6.30198976,6.49892544,6.69586112,6.892796799999999,7.0897324799999994,7.28666816,7.48360384,7.68053952,7.877475199999999,8.07441088,8.27134656,8.468282239999999,8.66521792,8.8621536,9.05908928,9.25602496,9.45296064,9.64989632,9.846832,10.04376768,10.24070336,10.43763904,10.63457472,10.831510399999999,11.02844608,11.22538176,11.42231744,11.61925312,11.816188799999999,12.01312448,12.21006016,12.40699584,12.60393152,12.800867199999999,12.99780288,13.19473856,13.39167424,13.58860992,13.785545599999999,13.98248128,14.17941696,14.37635264,14.57328832,14.770223999999999,14.96715968,15.16409536,15.36103104,15.55796672,15.754902399999999,15.95183808,16.14877376,16.34570944,16.54264512,16.7395808,16.936516479999998,17.13345216,17.33038784,17.52732352,17.7242592,17.921194879999998,18.11813056,18.31506624,18.51200192,18.7089376,18.90587328,19.10280896,19.29974464,19.49668032],"right":[0.19698368,0.39391936,0.5908550400000001,0.78779072,0.9847264,1.1816620800000002,1.3785977600000001,1.57553344,1.77246912,1.9694048,2.16634048,2.3632761600000003,2.56021184,2.75714752,2.9540832,3.15101888,3.3479545600000002,3.54489024,3.74182592,3.9387616,4.13569728,4.33263296,4.52956864,4.72650432,4.923439999999999,5.1203756799999995,5.31731136,5.51424704,5.71118272,5.908118399999999,6.1050540799999995,6.30198976,6.49892544,6.69586112,6.892796799999999,7.0897324799999994,7.28666816,7.48360384,7.68053952,7.877475199999999,8.07441088,8.27134656,8.468282239999999,8.66521792,8.8621536,9.05908928,9.25602496,9.45296064,9.64989632,9.846832,10.04376768,10.24070336,10.43763904,10.63457472,10.831510399999999,11.02844608,11.22538176,11.42231744,11.61925312,11.816188799999999,12.01312448,12.21006016,12.40699584,12.60393152,12.800867199999999,12.99780288,13.19473856,13.39167424,13.58860992,13.785545599999999,13.98248128,14.17941696,14.37635264,14.57328832,14.770223999999999,14.96715968,15.16409536,15.36103104,15.55796672,15.754902399999999,15.95183808,16.14877376,16.34570944,16.54264512,16.7395808,16.936516479999998,17.13345216,17.33038784,17.52732352,17.7242592,17.921194879999998,18.11813056,18.31506624,18.51200192,18.7089376,18.90587328,19.10280896,19.29974464,19.49668032,19.693616],"top":[8,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,29,3,0,0,0,0,0,0,0,8,12,4,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4]},"selected":{"id":"2373"},"selection_policy":{"id":"2372"}},"id":"2361","type":"ColumnDataSource"},{"attributes":{"bottom":{"value":0},"fill_alpha":{"value":0.1},"fill_color":{"value":"#440154"},"left":{"field":"left"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"right":{"field":"right"},"top":{"field":"top"}},"id":"2363","type":"Quad"},{"attributes":{"bottom":{"value":0},"fill_alpha":{"value":0.8},"fill_color":{"value":"#440154"},"left":{"field":"left"},"line_color":{"value":"white"},"right":{"field":"right"},"top":{"field":"top"}},"id":"2362","type":"Quad"}],"root_ids":["2377"]},"title":"Bokeh Application","version":"2.2.3"}};
-  var render_items = [{"docid":"14d6894e-60a7-46eb-9b8f-ba451adcb520","root_ids":["2377"],"roots":{"2377":"999f86d5-775d-4d22-80b7-bf3691997b65"}}];
-  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
-
-  }
-  if (root.Bokeh !== undefined) {
-    embed_document(root);
-  } else {
-    var attempts = 0;
-    var timer = setInterval(function(root) {
-      if (root.Bokeh !== undefined) {
-        clearInterval(timer);
-        embed_document(root);
-      } else {
-        attempts++;
-        if (attempts > 100) {
-          clearInterval(timer);
-          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
-        }
-      }
-    }, 10, root)
-  }
-})(window);
-</script>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_markdown rendered_html output_subarea ">
-<h3 id="Batch-size">Batch size<a class="anchor-link" href="#Batch-size">&#182;</a></h3>
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-
-
-
-
-
-
-  <div class="bk-root" id="aa58645e-0959-46cb-b022-bba7f2020911" data-root-id="2501"></div>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-
-
-<div id="1a961e2c-2cfd-4cf9-8e46-4439a0eb8296"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#1a961e2c-2cfd-4cf9-8e46-4439a0eb8296');
-(function(root) {
-  function embed_document(root) {
-    
-  var docs_json = {"4baeee91-fe5f-438c-a951-54f8a413f722":{"roots":{"references":[{"attributes":{"text":"The BatchSize rule helps to detect if GPU is underutilized because of the batch size being \n        too small. To detect this the rule analyzes the GPU memory footprint, CPU and GPU utilization. The rule checked if the 95th percentile of CPU utilization is below cpu_threshold_p95 of \n        70%, the 95th percentile of GPU utilization is below gpu_threshold_p95 of 70% and the 95th percentile of memory footprint         below gpu_memory_threshold_p95 of 70%. In your training job this happened 0 times.         The rule skipped the first 1000 datapoints. The rule computed the percentiles over window size of 500 continuous datapoints.\n\n        The rule analysed 357 datapoints and triggered 0 times.\n        ","width":800},"id":"2501","type":"Paragraph"}],"root_ids":["2501"]},"title":"Bokeh Application","version":"2.2.3"}};
-  var render_items = [{"docid":"4baeee91-fe5f-438c-a951-54f8a413f722","root_ids":["2501"],"roots":{"2501":"aa58645e-0959-46cb-b022-bba7f2020911"}}];
-  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
-
-  }
-  if (root.Bokeh !== undefined) {
-    embed_document(root);
-  } else {
-    var attempts = 0;
-    var timer = setInterval(function(root) {
-      if (root.Bokeh !== undefined) {
-        clearInterval(timer);
-        embed_document(root);
-      } else {
-        attempts++;
-        if (attempts > 100) {
-          clearInterval(timer);
-          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
-        }
-      }
-    }, 10, root)
-  }
-})(window);
-</script>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_markdown rendered_html output_subarea ">
-<h3 id="CPU-bottlenecks">CPU bottlenecks<a class="anchor-link" href="#CPU-bottlenecks">&#182;</a></h3>
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-
-
-
-
-
-
-  <div class="bk-root" id="75b14df6-ce4e-4e0b-aa12-387f0d103f1c" data-root-id="2585"></div>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-
-
-<div id="f08e3b92-f5b1-4319-a273-8b6ee794cf4b"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#f08e3b92-f5b1-4319-a273-8b6ee794cf4b');
-(function(root) {
-  function embed_document(root) {
-    
-  var docs_json = {"e15e244e-7b7d-47bb-969e-3852ec9b56be":{"roots":{"references":[{"attributes":{"text":"The CPUBottleneck rule checked when the CPU utilization was above cpu_threshold of 90% \n        and GPU utilization was below gpu_threshold of 10%. \n        During initialization utilization is likely to be zero, so the rule skipped the first 1000 datapoints.\n        With this configuration the rule found 0 CPU bottlenecks which is 0% of the total time. This is below the threshold of 50%\n        The rule analysed 360 data points and triggered 0 times.","width":900},"id":"2585","type":"Paragraph"}],"root_ids":["2585"]},"title":"Bokeh Application","version":"2.2.3"}};
-  var render_items = [{"docid":"e15e244e-7b7d-47bb-969e-3852ec9b56be","root_ids":["2585"],"roots":{"2585":"75b14df6-ce4e-4e0b-aa12-387f0d103f1c"}}];
-  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
-
-  }
-  if (root.Bokeh !== undefined) {
-    embed_document(root);
-  } else {
-    var attempts = 0;
-    var timer = setInterval(function(root) {
-      if (root.Bokeh !== undefined) {
-        clearInterval(timer);
-        embed_document(root);
-      } else {
-        attempts++;
-        if (attempts > 100) {
-          clearInterval(timer);
-          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
-        }
-      }
-    }, 10, root)
-  }
-})(window);
-</script>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_markdown rendered_html output_subarea ">
-<h3 id="I/O-bottlenecks">I/O bottlenecks<a class="anchor-link" href="#I/O-bottlenecks">&#182;</a></h3>
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-
-
-
-
-
-
-  <div class="bk-root" id="2676245b-369e-40ba-bbbd-4df1b51e8595" data-root-id="2669"></div>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-
-
-<div id="f3a551bd-c11c-4113-abe0-ab4598ab6503"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#f3a551bd-c11c-4113-abe0-ab4598ab6503');
-(function(root) {
-  function embed_document(root) {
-    
-  var docs_json = {"d881aefe-3fcf-4ff4-b696-7fc050e284b2":{"roots":{"references":[{"attributes":{"text":"The IOBottleneck rule checked when I/O wait time was above io_threshold of 50% \n        and GPU utilization was below gpu_threshold of 10. During initialization utilization is likely to be zero, so the rule skipped the first 1000 datapoints. \n        With this configuration the rule found 0 I/O bottlenecks which is 0% of the total time. This is below the threshold of 50%.\n        The rule analysed 360 datapoints and triggered 0 times.","width":900},"id":"2669","type":"Paragraph"}],"root_ids":["2669"]},"title":"Bokeh Application","version":"2.2.3"}};
-  var render_items = [{"docid":"d881aefe-3fcf-4ff4-b696-7fc050e284b2","root_ids":["2669"],"roots":{"2669":"2676245b-369e-40ba-bbbd-4df1b51e8595"}}];
-  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
-
-  }
-  if (root.Bokeh !== undefined) {
-    embed_document(root);
-  } else {
-    var attempts = 0;
-    var timer = setInterval(function(root) {
-      if (root.Bokeh !== undefined) {
-        clearInterval(timer);
-        embed_document(root);
-      } else {
-        attempts++;
-        if (attempts > 100) {
-          clearInterval(timer);
-          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
-        }
-      }
-    }, 10, root)
-  }
-})(window);
-</script>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered celltag_hide-input">
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_markdown rendered_html output_subarea ">
-<h3 id="GPU-memory">GPU memory<a class="anchor-link" href="#GPU-memory">&#182;</a></h3>
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-
-
-
-
-
-
-  <div class="bk-root" id="9e90dca1-a07f-42e6-a242-84ed7383f51e" data-root-id="2753"></div>
-
-</div>
-
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-
-
-<div id="dccaca47-404f-40e7-84b6-7ebeeaa3a41d"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#dccaca47-404f-40e7-84b6-7ebeeaa3a41d');
-(function(root) {
-  function embed_document(root) {
-    
-  var docs_json = {"17c09a8a-74ad-423c-82ce-54bc70472053":{"roots":{"references":[{"attributes":{"text":"The GPUMemoryIncrease rule helps to detect large increase in memory usage on GPUs. \n        The rule checked if the moving average of memory increased by more than 5.0%. \n        So if the moving average increased for instance from 10% to 16.0%, \n        the rule would have triggered. During initialization utilization  is likely 0, so the rule skipped the first 1000 datapoints.\n        The moving average was computed on a window size of 10 continuous datapoints. The rule detected 0 violations\n        where the moving average between previous and current time window increased by more than 5.0%.\n        The rule analysed 0 datapoints and triggered 0 times.","width":900},"id":"2753","type":"Paragraph"}],"root_ids":["2753"]},"title":"Bokeh Application","version":"2.2.3"}};
-  var render_items = [{"docid":"17c09a8a-74ad-423c-82ce-54bc70472053","root_ids":["2753"],"roots":{"2753":"9e90dca1-a07f-42e6-a242-84ed7383f51e"}}];
-  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
-
-  }
-  if (root.Bokeh !== undefined) {
-    embed_document(root);
-  } else {
-    var attempts = 0;
-    var timer = setInterval(function(root) {
-      if (root.Bokeh !== undefined) {
-        clearInterval(timer);
-        embed_document(root);
-      } else {
-        attempts++;
-        if (attempts > 100) {
-          clearInterval(timer);
-          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
-        }
-      }
-    }, 10, root)
-  }
-})(window);
-</script>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
+         </script>
+        </div>
+       </div>
+      </div>
+     </div>
     </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_parameters celltag_hide-input celltag_hide-output">
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_injected-parameters">
+     <div class="input">
+      <div class="prompt input_prompt">
+       In [4]:
+      </div>
+      <div class="inner_cell">
+       <div class="input_area">
+        <div class="highlight hl-ipython3">
+         <pre><span></span><span class="c1"># Parameters</span>
+<span class="n">processing_job_arn</span> <span class="o">=</span> <span class="s2">"arn:aws:sagemaker:us-east-1:779231204742:processing-job/ant-bees-estimator2-2022-0-profilerreport-baebc3d2"</span>
+</pre>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input celltag_hide-output">
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+    </div>
+    <div class="cell border-box-sizing text_cell rendered">
+     <div class="prompt input_prompt">
+     </div>
+     <div class="inner_cell">
+      <div class="text_cell_render border-box-sizing rendered_html">
+       <h2 id="Training-job-summary">
+        Training job summary
+        <a class="anchor-link" href="#Training-job-summary">
+         ¶
+        </a>
+       </h2>
+      </div>
+     </div>
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input celltag_hide-output">
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+     <div class="output_wrapper">
+      <div class="output">
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_html rendered_html output_subarea">
+         <div class="bk-root" data-root-id="1052" id="256afd2b-81e2-40b7-8332-48603f8401c1">
+         </div>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div id="6cbbf564-e3cc-4dd6-8ae2-51088fca251c">
+        </div>
+        <div class="output_subarea output_javascript">
+         <script type="text/javascript">
+          var element = $('#6cbbf564-e3cc-4dd6-8ae2-51088fca251c');
+(function(root) {
+  function embed_document(root) {
+    
+  var docs_json = {"c09d8ee9-2556-422f-9d3a-c2d38d0245fc":{"roots":{"references":[{"attributes":{"children":[{"id":"1050"},{"id":"1051"}]},"id":"1052","type":"Column"},{"attributes":{},"id":"1043","type":"BasicTickFormatter"},{"attributes":{"editor":{"id":"1056"},"field":"0","formatter":{"id":"1057"},"title":""},"id":"1002","type":"TableColumn"},{"attributes":{},"id":"1054","type":"Selection"},{"attributes":{"axis":{"id":"1016"},"grid_line_color":null,"ticker":null},"id":"1019","type":"Grid"},{"attributes":{"data":{"angle":{"__ndarray__":"Jsa2PcIUB0ALlNFqNC8LQAAAAAAAAAAA","dtype":"float64","order":"little","shape":[3]},"color":["#440154","#208F8C","#FDE724"],"index":[0,1,2],"phase":["Initialization","Training loop","Finalization"],"value":[45,53,0]},"selected":{"id":"1046"},"selection_policy":{"id":"1047"}},"id":"1035","type":"ColumnDataSource"},{"attributes":{"field":"angle","include_zero":true},"id":"1033","type":"CumSum"},{"attributes":{},"id":"1021","type":"BasicTicker"},{"attributes":{},"id":"1045","type":"BasicTickFormatter"},{"attributes":{"editor":{"id":"1058"},"field":"1","formatter":{"id":"1059"},"title":"Job Statistics"},"id":"1003","type":"TableColumn"},{"attributes":{"items":[{"id":"1049"}],"label_text_font_size":"8pt","location":"center_right"},"id":"1048","type":"Legend"},{"attributes":{},"id":"1047","type":"UnionRenderers"},{"attributes":{"axis":{"id":"1020"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"1023","type":"Grid"},{"attributes":{"below":[{"id":"1016"}],"center":[{"id":"1019"},{"id":"1023"},{"id":"1048"}],"left":[{"id":"1020"}],"outline_line_color":"white","plot_height":350,"plot_width":500,"renderers":[{"id":"1039"}],"title":null,"toolbar":{"id":"1028"},"toolbar_location":null,"x_range":{"id":"1008"},"x_scale":{"id":"1012"},"y_range":{"id":"1010"},"y_scale":{"id":"1014"}},"id":"1006","subtype":"Figure","type":"Plot"},{"attributes":{"axis_label":null,"formatter":{"id":"1043"},"ticker":{"id":"1021"},"visible":false},"id":"1020","type":"LinearAxis"},{"attributes":{"text":"The following table gives a summary about the training job. The table includes information about when the training job started and ended, how much time initialization, training loop and finalization took. \n Your training job started on 04/05/2022 at 20:44:07 and ran for 172 seconds.","width":800},"id":"1050","type":"Paragraph"},{"attributes":{"children":[{"id":"1004"},{"id":"1006"}]},"id":"1051","type":"Row"},{"attributes":{},"id":"1055","type":"UnionRenderers"},{"attributes":{"source":{"id":"1035"}},"id":"1040","type":"CDSView"},{"attributes":{"data_source":{"id":"1035"},"glyph":{"id":"1037"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1038"},"selection_glyph":null,"view":{"id":"1040"}},"id":"1039","type":"GlyphRenderer"},{"attributes":{},"id":"1046","type":"Selection"},{"attributes":{"columns":[{"id":"1002"},{"id":"1003"}],"height":380,"source":{"id":"1001"},"view":{"id":"1005"},"width":450},"id":"1004","type":"DataTable"},{"attributes":{},"id":"1058","type":"StringEditor"},{"attributes":{"data":{"0":["Start time","End time","Job duration","Training loop start","Training loop end","Training loop duration","Initialization time","Finalization time","Initialization","Training loop","Finalization"],"1":["20:44:07 04/05/2022","20:46:59 04/05/2022","172 seconds","20:45:27 04/05/2022","20:46:59 04/05/2022","92 seconds","79 seconds","0 seconds","45 %","53 %","0 %"],"index":[0,1,2,3,4,5,6,7,8,9,10]},"selected":{"id":"1054"},"selection_policy":{"id":"1055"}},"id":"1001","type":"ColumnDataSource"},{"attributes":{"source":{"id":"1001"}},"id":"1005","type":"CDSView"},{"attributes":{},"id":"1017","type":"BasicTicker"},{"attributes":{"callback":null,"tooltips":"@phase:@value"},"id":"1024","type":"HoverTool"},{"attributes":{},"id":"1025","type":"WheelZoomTool"},{"attributes":{},"id":"1010","type":"DataRange1d"},{"attributes":{},"id":"1026","type":"ResetTool"},{"attributes":{},"id":"1012","type":"LinearScale"},{"attributes":{},"id":"1056","type":"StringEditor"},{"attributes":{},"id":"1027","type":"PanTool"},{"attributes":{"end":0.3,"start":-0.3},"id":"1008","type":"Range1d"},{"attributes":{},"id":"1057","type":"StringFormatter"},{"attributes":{"field":"angle"},"id":"1034","type":"CumSum"},{"attributes":{"end_angle":{"expr":{"id":"1034"},"units":"rad"},"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"radius":{"units":"data","value":0.15},"start_angle":{"expr":{"id":"1033"},"units":"rad"},"x":{"value":0},"y":{"value":0.0}},"id":"1038","type":"Wedge"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1024"},{"id":"1025"},{"id":"1026"},{"id":"1027"}]},"id":"1028","type":"Toolbar"},{"attributes":{},"id":"1059","type":"StringFormatter"},{"attributes":{},"id":"1014","type":"LinearScale"},{"attributes":{"end_angle":{"expr":{"id":"1034"},"units":"rad"},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"units":"data","value":0.15},"start_angle":{"expr":{"id":"1033"},"units":"rad"},"x":{"value":0},"y":{"value":0.0}},"id":"1037","type":"Wedge"},{"attributes":{"label":{"field":"phase"},"renderers":[{"id":"1039"}]},"id":"1049","type":"LegendItem"},{"attributes":{"axis_label":null,"formatter":{"id":"1045"},"ticker":{"id":"1017"},"visible":false},"id":"1016","type":"LinearAxis"}],"root_ids":["1052"]},"title":"Bokeh Application","version":"2.2.3"}};
+  var render_items = [{"docid":"c09d8ee9-2556-422f-9d3a-c2d38d0245fc","root_ids":["1052"],"roots":{"1052":"256afd2b-81e2-40b7-8332-48603f8401c1"}}];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    var attempts = 0;
+    var timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        clearInterval(timer);
+        embed_document(root);
+      } else {
+        attempts++;
+        if (attempts > 100) {
+          clearInterval(timer);
+          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        }
+      }
+    }, 10, root)
+  }
+})(window);
+         </script>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="cell border-box-sizing text_cell rendered">
+     <div class="prompt input_prompt">
+     </div>
+     <div class="inner_cell">
+      <div class="text_cell_render border-box-sizing rendered_html">
+       <h2 id="System-usage-statistics">
+        System usage statistics
+        <a class="anchor-link" href="#System-usage-statistics">
+         ¶
+        </a>
+       </h2>
+      </div>
+     </div>
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+     <div class="output_wrapper">
+      <div class="output">
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_html rendered_html output_subarea">
+         <div class="bk-root" data-root-id="1145" id="0f96a5f6-c55d-4099-bd7c-5ec6b0b66568">
+         </div>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div id="cf5f4b51-3209-4507-85df-7205a642cbe6">
+        </div>
+        <div class="output_subarea output_javascript">
+         <script type="text/javascript">
+          var element = $('#cf5f4b51-3209-4507-85df-7205a642cbe6');
+(function(root) {
+  function embed_document(root) {
+    
+  var docs_json = {"f73cbbea-4c4b-47cc-83da-5c6a7f2fa463":{"roots":{"references":[{"attributes":{"children":[{"id":"1131"},{"id":"1132"},{"id":"1144"}]},"id":"1145","type":"Column"},{"attributes":{},"id":"1167","type":"StringEditor"},{"attributes":{},"id":"1174","type":"StringFormatter"},{"attributes":{"editor":{"id":"1161"},"field":"Node","formatter":{"id":"1162"},"title":"node"},"id":"1134","type":"TableColumn"},{"attributes":{"columns":[{"id":"1134"},{"id":"1135"},{"id":"1136"},{"id":"1137"},{"id":"1138"},{"id":"1139"},{"id":"1140"},{"id":"1141"}],"height":120,"source":{"id":"1133"},"view":{"id":"1143"},"width":800},"id":"1142","type":"DataTable"},{"attributes":{},"id":"1162","type":"StringFormatter"},{"attributes":{"source":{"id":"1133"}},"id":"1143","type":"CDSView"},{"attributes":{},"id":"1163","type":"StringEditor"},{"attributes":{"editor":{"id":"1175"},"field":"min","formatter":{"id":"1176"},"title":"min"},"id":"1141","type":"TableColumn"},{"attributes":{"editor":{"id":"1163"},"field":"metric","formatter":{"id":"1164"},"title":"metric"},"id":"1135","type":"TableColumn"},{"attributes":{},"id":"1168","type":"StringFormatter"},{"attributes":{},"id":"1161","type":"StringEditor"},{"attributes":{"width":1100},"id":"1131","type":"Paragraph"},{"attributes":{},"id":"1164","type":"StringFormatter"},{"attributes":{"editor":{"id":"1167"},"field":"max","formatter":{"id":"1168"},"title":"max"},"id":"1137","type":"TableColumn"},{"attributes":{},"id":"1166","type":"StringFormatter"},{"attributes":{},"id":"1176","type":"StringFormatter"},{"attributes":{},"id":"1159","type":"Selection"},{"attributes":{"text":"The following table shows statistics of resource utilization per worker (node), \n    such as the total CPU and GPU utilization, and the memory utilization on CPU and GPU. \n    The table also includes the total I/O wait time and the total amount of data sent or received in bytes.\n    The table shows min and max values as well as p99, p90 and p50 percentiles.","width":900},"id":"1132","type":"Paragraph"},{"attributes":{},"id":"1169","type":"StringEditor"},{"attributes":{"data":{"Node":["algo-1","algo-1","algo-1","algo-1"],"index":[0,1,2,3],"level_0":[0,1,2,3],"max":{"__ndarray__":"H4XryCBLl0G4HoXrURhTQGZmZmZmZiFAH4XrUbjuUUA=","dtype":"float64","order":"little","shape":[4]},"metric":["Network","CPU","CPU memory","I/O"],"min":{"__ndarray__":"AAAAAAAAAAC4HoXrUbjOPylcj8L1KA5AAAAAAAAAAAA=","dtype":"float64","order":"little","shape":[4]},"p50":{"__ndarray__":"AAAAAAAAAADXo3A9CtdGQM3MzMzMzBtAuB6F61G4zj8=","dtype":"float64","order":"little","shape":[4]},"p95":{"__ndarray__":"AAAAAAAAAABcj8L1KHxPQBSuR+F6lCBArkfhehROR0A=","dtype":"float64","order":"little","shape":[4]},"p99":{"__ndarray__":"j8L1KFwboUDXo3A9CsdRQMP1KFyPQiFAUrgehesxT0A=","dtype":"float64","order":"little","shape":[4]},"unit":["bytes","percentage","percentage","percentage"]},"selected":{"id":"1159"},"selection_policy":{"id":"1160"}},"id":"1133","type":"ColumnDataSource"},{"attributes":{},"id":"1173","type":"StringEditor"},{"attributes":{"editor":{"id":"1169"},"field":"p99","formatter":{"id":"1170"},"title":"p99"},"id":"1138","type":"TableColumn"},{"attributes":{"editor":{"id":"1171"},"field":"p95","formatter":{"id":"1172"},"title":"p95"},"id":"1139","type":"TableColumn"},{"attributes":{},"id":"1160","type":"UnionRenderers"},{"attributes":{},"id":"1175","type":"StringEditor"},{"attributes":{},"id":"1172","type":"StringFormatter"},{"attributes":{},"id":"1165","type":"StringEditor"},{"attributes":{},"id":"1170","type":"StringFormatter"},{"attributes":{"editor":{"id":"1165"},"field":"unit","formatter":{"id":"1166"},"title":"unit"},"id":"1136","type":"TableColumn"},{"attributes":{},"id":"1171","type":"StringEditor"},{"attributes":{"editor":{"id":"1173"},"field":"p50","formatter":{"id":"1174"},"title":"p50"},"id":"1140","type":"TableColumn"},{"attributes":{"children":[{"id":"1142"}]},"id":"1144","type":"Row"}],"root_ids":["1145"]},"title":"Bokeh Application","version":"2.2.3"}};
+  var render_items = [{"docid":"f73cbbea-4c4b-47cc-83da-5c6a7f2fa463","root_ids":["1145"],"roots":{"1145":"0f96a5f6-c55d-4099-bd7c-5ec6b0b66568"}}];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    var attempts = 0;
+    var timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        clearInterval(timer);
+        embed_document(root);
+      } else {
+        attempts++;
+        if (attempts > 100) {
+          clearInterval(timer);
+          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        }
+      }
+    }, 10, root)
+  }
+})(window);
+         </script>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+     <div class="output_wrapper">
+      <div class="output">
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_markdown rendered_html output_subarea">
+         <h2 id="Framework-metrics-summary">
+          Framework metrics summary
+          <a class="anchor-link" href="#Framework-metrics-summary">
+           ¶
+          </a>
+         </h2>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_html rendered_html output_subarea">
+         <div class="bk-root" data-root-id="1314" id="3c59ce90-541e-4524-a60f-9010fd07190b">
+         </div>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div id="c4fef934-e8c1-4033-a7ba-d7f59c59a090">
+        </div>
+        <div class="output_subarea output_javascript">
+         <script type="text/javascript">
+          var element = $('#c4fef934-e8c1-4033-a7ba-d7f59c59a090');
+(function(root) {
+  function embed_document(root) {
+    
+  var docs_json = {"d2cf26ca-8470-4c81-a3e7-444ef58ef599":{"roots":{"references":[{"attributes":{"children":[{"id":"1312"},{"id":"1313"}]},"id":"1314","type":"Column"},{"attributes":{},"id":"1274","type":"LinearScale"},{"attributes":{"data":{"angle":{"__ndarray__":"Phq9cd3RF0CXLXEo3gHVPw==","dtype":"float64","order":"little","shape":[2]},"color":["#440154","#FDE724"],"index":[0,1],"phase":["Step:ModeKeys.GLOBAL","others"],"value":{"__ndarray__":"ZexXk6ixV0CxOYHKduUUQA==","dtype":"float64","order":"little","shape":[2]}},"selected":{"id":"1308"},"selection_policy":{"id":"1309"}},"id":"1297","type":"ColumnDataSource"},{"attributes":{"end":0.8999999999999999,"start":-0.5},"id":"1270","type":"Range1d"},{"attributes":{},"id":"1307","type":"BasicTickFormatter"},{"attributes":{},"id":"1276","type":"LinearScale"},{"attributes":{},"id":"1309","type":"UnionRenderers"},{"attributes":{"axis_label":null,"formatter":{"id":"1307"},"ticker":{"id":"1279"},"visible":false},"id":"1278","type":"LinearAxis"},{"attributes":{},"id":"1283","type":"BasicTicker"},{"attributes":{},"id":"1305","type":"BasicTickFormatter"},{"attributes":{},"id":"1279","type":"BasicTicker"},{"attributes":{"source":{"id":"1297"}},"id":"1302","type":"CDSView"},{"attributes":{"axis":{"id":"1278"},"grid_line_color":null,"ticker":null},"id":"1281","type":"Grid"},{"attributes":{"end_angle":{"expr":{"id":"1296"},"units":"rad"},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"units":"data","value":0.3},"start_angle":{"expr":{"id":"1295"},"units":"rad"},"x":{"value":0},"y":{"value":0.0}},"id":"1299","type":"Wedge"},{"attributes":{"axis":{"id":"1282"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"1285","type":"Grid"},{"attributes":{"axis_label":null,"formatter":{"id":"1305"},"ticker":{"id":"1283"},"visible":false},"id":"1282","type":"LinearAxis"},{"attributes":{"children":[{"id":"1267"}]},"id":"1313","type":"Row"},{"attributes":{"field":"angle","include_zero":true},"id":"1295","type":"CumSum"},{"attributes":{"text":"The ratio between the time spent on the TRAIN/EVAL phase and others"},"id":"1268","type":"Title"},{"attributes":{"text":"The following two pie charts show the time spent on the TRAIN phase, the EVAL phase, \n            and others. The 'others' includes the time spent between steps (after one step has finished and before\n            the next step has started). Ideally, most of the training time should be spent on the \n            TRAIN and EVAL phases. If TRAIN/EVAL were not specified in the training script, steps will be recorded as \n            GLOBAL.","width":1100},"id":"1312","type":"Paragraph"},{"attributes":{"label":{"field":"phase"},"renderers":[{"id":"1301"}]},"id":"1311","type":"LegendItem"},{"attributes":{"end_angle":{"expr":{"id":"1296"},"units":"rad"},"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"radius":{"units":"data","value":0.3},"start_angle":{"expr":{"id":"1295"},"units":"rad"},"x":{"value":0},"y":{"value":0.0}},"id":"1300","type":"Wedge"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1286"},{"id":"1287"},{"id":"1288"},{"id":"1289"}]},"id":"1290","type":"Toolbar"},{"attributes":{"below":[{"id":"1278"}],"center":[{"id":"1281"},{"id":"1285"},{"id":"1310"}],"left":[{"id":"1282"}],"outline_line_color":"white","plot_height":350,"renderers":[{"id":"1301"}],"title":{"id":"1268"},"toolbar":{"id":"1290"},"x_range":{"id":"1270"},"x_scale":{"id":"1274"},"y_range":{"id":"1272"},"y_scale":{"id":"1276"}},"id":"1267","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"tooltips":"@phase:@value"},"id":"1286","type":"HoverTool"},{"attributes":{"field":"angle"},"id":"1296","type":"CumSum"},{"attributes":{},"id":"1287","type":"WheelZoomTool"},{"attributes":{},"id":"1288","type":"ResetTool"},{"attributes":{"data_source":{"id":"1297"},"glyph":{"id":"1299"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1300"},"selection_glyph":null,"view":{"id":"1302"}},"id":"1301","type":"GlyphRenderer"},{"attributes":{},"id":"1289","type":"PanTool"},{"attributes":{},"id":"1272","type":"DataRange1d"},{"attributes":{},"id":"1308","type":"Selection"},{"attributes":{"items":[{"id":"1311"}],"label_text_font_size":"8pt","location":"center_right"},"id":"1310","type":"Legend"}],"root_ids":["1314"]},"title":"Bokeh Application","version":"2.2.3"}};
+  var render_items = [{"docid":"d2cf26ca-8470-4c81-a3e7-444ef58ef599","root_ids":["1314"],"roots":{"1314":"3c59ce90-541e-4524-a60f-9010fd07190b"}}];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    var attempts = 0;
+    var timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        clearInterval(timer);
+        embed_document(root);
+      } else {
+        attempts++;
+        if (attempts > 100) {
+          clearInterval(timer);
+          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        }
+      }
+    }, 10, root)
+  }
+})(window);
+         </script>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_html rendered_html output_subarea">
+         <div class="bk-root" data-root-id="1480" id="1cc95db3-4b43-4d09-9740-d47a45bf8779">
+         </div>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div id="38455bbf-b7e2-4b6d-ad4b-decdd328d982">
+        </div>
+        <div class="output_subarea output_javascript">
+         <script type="text/javascript">
+          var element = $('#38455bbf-b7e2-4b6d-ad4b-decdd328d982');
+(function(root) {
+  function embed_document(root) {
+    
+  var docs_json = {"56fc32b1-7db3-41b6-9272-8b92ff86aae0":{"roots":{"references":[{"attributes":{"children":[{"id":"1478"},{"id":"1479"}]},"id":"1480","type":"Column"},{"attributes":{"below":[{"id":"1399"}],"center":[{"id":"1402"},{"id":"1406"},{"id":"1431"}],"left":[{"id":"1403"}],"outline_line_color":"white","plot_height":350,"renderers":[{"id":"1422"}],"title":{"id":"1389"},"toolbar":{"id":"1411"},"x_range":{"id":"1391"},"x_scale":{"id":"1395"},"y_range":{"id":"1393"},"y_scale":{"id":"1397"}},"id":"1388","subtype":"Figure","type":"Plot"},{"attributes":{"end_angle":{"expr":{"id":"1417"},"units":"rad"},"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"radius":{"units":"data","value":0.3},"start_angle":{"expr":{"id":"1416"},"units":"rad"},"x":{"value":0},"y":{"value":0.0}},"id":"1421","type":"Wedge"},{"attributes":{"items":[{"id":"1432"}],"label_text_font_size":"8pt","location":"center_right"},"id":"1431","type":"Legend"},{"attributes":{"axis":{"id":"1448"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"1451","type":"Grid"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1452"},{"id":"1453"},{"id":"1454"},{"id":"1455"}]},"id":"1456","type":"Toolbar"},{"attributes":{},"id":"1400","type":"BasicTicker"},{"attributes":{},"id":"1429","type":"Selection"},{"attributes":{"axis":{"id":"1399"},"grid_line_color":null,"ticker":null},"id":"1402","type":"Grid"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1407"},{"id":"1408"},{"id":"1409"},{"id":"1410"}]},"id":"1411","type":"Toolbar"},{"attributes":{},"id":"1410","type":"PanTool"},{"attributes":{},"id":"1408","type":"WheelZoomTool"},{"attributes":{"text":"The following piechart shows a breakdown of the CPU/GPU operators. \n                It shows that 100% of training time was spent on executing the \"cpu_functions\" operator.","width":1100},"id":"1478","type":"Paragraph"},{"attributes":{},"id":"1409","type":"ResetTool"},{"attributes":{"field":"angle"},"id":"1462","type":"CumSum"},{"attributes":{"label":{"field":"phase"},"renderers":[{"id":"1422"}]},"id":"1432","type":"LegendItem"},{"attributes":{"callback":null,"tooltips":"@phase:@value"},"id":"1452","type":"HoverTool"},{"attributes":{},"id":"1453","type":"WheelZoomTool"},{"attributes":{"children":[{"id":"1388"},{"id":"1433"}]},"id":"1479","type":"Row"},{"attributes":{},"id":"1426","type":"BasicTickFormatter"},{"attributes":{"callback":null,"tooltips":"@phase:@value"},"id":"1407","type":"HoverTool"},{"attributes":{"below":[{"id":"1444"}],"center":[{"id":"1447"},{"id":"1451"},{"id":"1476"}],"left":[{"id":"1448"}],"outline_line_color":"white","plot_height":350,"renderers":[{"id":"1467"}],"title":{"id":"1434"},"toolbar":{"id":"1456"},"x_range":{"id":"1436"},"x_scale":{"id":"1440"},"y_range":{"id":"1438"},"y_scale":{"id":"1442"}},"id":"1433","subtype":"Figure","type":"Plot"},{"attributes":{"end":0.8999999999999999,"start":-0.5},"id":"1436","type":"Range1d"},{"attributes":{"data_source":{"id":"1463"},"glyph":{"id":"1465"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1466"},"selection_glyph":null,"view":{"id":"1468"}},"id":"1467","type":"GlyphRenderer"},{"attributes":{},"id":"1454","type":"ResetTool"},{"attributes":{},"id":"1440","type":"LinearScale"},{"attributes":{"text":"General framework operations"},"id":"1434","type":"Title"},{"attributes":{"label":{"field":"phase"},"renderers":[{"id":"1467"}]},"id":"1477","type":"LegendItem"},{"attributes":{"axis_label":null,"formatter":{"id":"1428"},"ticker":{"id":"1400"},"visible":false},"id":"1399","type":"LinearAxis"},{"attributes":{},"id":"1449","type":"BasicTicker"},{"attributes":{"end_angle":{"expr":{"id":"1462"},"units":"rad"},"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"radius":{"units":"data","value":0.3},"start_angle":{"expr":{"id":"1461"},"units":"rad"},"x":{"value":0},"y":{"value":0.0}},"id":"1466","type":"Wedge"},{"attributes":{},"id":"1430","type":"UnionRenderers"},{"attributes":{},"id":"1455","type":"PanTool"},{"attributes":{"field":"angle","include_zero":true},"id":"1416","type":"CumSum"},{"attributes":{"axis_label":null,"formatter":{"id":"1426"},"ticker":{"id":"1404"},"visible":false},"id":"1403","type":"LinearAxis"},{"attributes":{"end":0.8999999999999999,"start":-0.5},"id":"1391","type":"Range1d"},{"attributes":{},"id":"1445","type":"BasicTicker"},{"attributes":{"field":"angle","include_zero":true},"id":"1461","type":"CumSum"},{"attributes":{},"id":"1475","type":"UnionRenderers"},{"attributes":{"axis_label":null,"formatter":{"id":"1473"},"ticker":{"id":"1445"},"visible":false},"id":"1444","type":"LinearAxis"},{"attributes":{"end_angle":{"expr":{"id":"1417"},"units":"rad"},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"units":"data","value":0.3},"start_angle":{"expr":{"id":"1416"},"units":"rad"},"x":{"value":0},"y":{"value":0.0}},"id":"1420","type":"Wedge"},{"attributes":{"source":{"id":"1418"}},"id":"1423","type":"CDSView"},{"attributes":{"field":"angle"},"id":"1417","type":"CumSum"},{"attributes":{},"id":"1438","type":"DataRange1d"},{"attributes":{},"id":"1442","type":"LinearScale"},{"attributes":{"data":{"angle":{"__ndarray__":"HyDuJluojj959XmEybeYP4vDXH3tqfA/MQvV/XPPFEA=","dtype":"float64","order":"little","shape":[4]},"color":["#440154","#30678D","#35B778","#FDE724"],"index":[0,1,2,3],"phase":["DataLoaderIterInitialize","DataLoaderIter","Forward","DataLoaderWorker"],"value":{"__ndarray__":"0FzGded+zj++H+fFXZbYP/XNKJFlkzBANQI1ylCzVEA=","dtype":"float64","order":"little","shape":[4]}},"selected":{"id":"1474"},"selection_policy":{"id":"1475"}},"id":"1463","type":"ColumnDataSource"},{"attributes":{},"id":"1397","type":"LinearScale"},{"attributes":{"end_angle":{"expr":{"id":"1462"},"units":"rad"},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"units":"data","value":0.3},"start_angle":{"expr":{"id":"1461"},"units":"rad"},"x":{"value":0},"y":{"value":0.0}},"id":"1465","type":"Wedge"},{"attributes":{"axis":{"id":"1403"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"1406","type":"Grid"},{"attributes":{"data":{"angle":{"__ndarray__":"GC1EVPshGUA=","dtype":"float64","order":"little","shape":[1]},"color":["#440154"],"index":[0],"phase":["cpu_functions"],"value":{"__ndarray__":"AAAAAAAAWUA=","dtype":"float64","order":"little","shape":[1]}},"selected":{"id":"1429"},"selection_policy":{"id":"1430"}},"id":"1418","type":"ColumnDataSource"},{"attributes":{},"id":"1393","type":"DataRange1d"},{"attributes":{},"id":"1473","type":"BasicTickFormatter"},{"attributes":{"data_source":{"id":"1418"},"glyph":{"id":"1420"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1421"},"selection_glyph":null,"view":{"id":"1423"}},"id":"1422","type":"GlyphRenderer"},{"attributes":{"text":"The ratio between the time spent on CPU/GPU operators"},"id":"1389","type":"Title"},{"attributes":{},"id":"1404","type":"BasicTicker"},{"attributes":{},"id":"1471","type":"BasicTickFormatter"},{"attributes":{"items":[{"id":"1477"}],"label_text_font_size":"8pt","location":"center_right"},"id":"1476","type":"Legend"},{"attributes":{},"id":"1474","type":"Selection"},{"attributes":{},"id":"1395","type":"LinearScale"},{"attributes":{},"id":"1428","type":"BasicTickFormatter"},{"attributes":{"source":{"id":"1463"}},"id":"1468","type":"CDSView"},{"attributes":{"axis_label":null,"formatter":{"id":"1471"},"ticker":{"id":"1449"},"visible":false},"id":"1448","type":"LinearAxis"},{"attributes":{"axis":{"id":"1444"},"grid_line_color":null,"ticker":null},"id":"1447","type":"Grid"}],"root_ids":["1480"]},"title":"Bokeh Application","version":"2.2.3"}};
+  var render_items = [{"docid":"56fc32b1-7db3-41b6-9272-8b92ff86aae0","root_ids":["1480"],"roots":{"1480":"1cc95db3-4b43-4d09-9740-d47a45bf8779"}}];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    var attempts = 0;
+    var timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        clearInterval(timer);
+        embed_document(root);
+      } else {
+        attempts++;
+        if (attempts > 100) {
+          clearInterval(timer);
+          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        }
+      }
+    }, 10, root)
+  }
+})(window);
+         </script>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+     <div class="output_wrapper">
+      <div class="output">
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_markdown rendered_html output_subarea">
+         <h4 id="Overview:-CPU-operators">
+          Overview: CPU operators
+          <a class="anchor-link" href="#Overview:-CPU-operators">
+           ¶
+          </a>
+         </h4>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_html rendered_html output_subarea">
+         <div class="bk-root" data-root-id="1655" id="2cce9e75-7305-4074-b3f7-da9424bc1906">
+         </div>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div id="6f7c2a26-8e91-4c3c-8ee1-7b76ad75894f">
+        </div>
+        <div class="output_subarea output_javascript">
+         <script type="text/javascript">
+          var element = $('#6f7c2a26-8e91-4c3c-8ee1-7b76ad75894f');
+(function(root) {
+  function embed_document(root) {
+    
+  var docs_json = {"9d1d95d3-4284-4d2a-9013-35a7eb0fd098":{"roots":{"references":[{"attributes":{"children":[{"id":"1609"},{"id":"1654"}]},"id":"1655","type":"Column"},{"attributes":{},"id":"1649","type":"BasicTickFormatter"},{"attributes":{"below":[{"id":"1620"}],"center":[{"id":"1623"},{"id":"1627"},{"id":"1652"}],"left":[{"id":"1624"}],"outline_line_color":"white","plot_height":350,"renderers":[{"id":"1643"}],"title":null,"toolbar":{"id":"1632"},"x_range":{"id":"1612"},"x_scale":{"id":"1616"},"y_range":{"id":"1614"},"y_scale":{"id":"1618"}},"id":"1610","subtype":"Figure","type":"Plot"},{"attributes":{"data":{"index":[0,1,2,3,4,5,6,9,7,8],"operator":["aten::conv2d","aten::convolution","aten::_convolution","aten::mkldnn_convolution","aten::batch_norm","aten::_batch_norm_impl_index","aten::native_batch_norm","enumerate(DataLoader)#_MultiProcessingDataLoaderIter.__next__","aten::max_pool2d","aten::max_pool2d_with_indices"],"percentage":{"__ndarray__":"CtejcD2KMkAK16NwPYoyQEjhehSuhzJASOF6FK6HMkCamZmZmZkWQI/C9ShcjxZAj8L1KFyPFkAK16NwPQoLQI/C9ShcjwZA16NwPQrXBUA=","dtype":"float64","order":"little","shape":[10]},"time":[7466150,7464776,7463572,7460184,2275638,2273094,2270697,1360191,1135247,1099259]},"selected":{"id":"1709"},"selection_policy":{"id":"1710"}},"id":"1603","type":"ColumnDataSource"},{"attributes":{},"id":"1651","type":"UnionRenderers"},{"attributes":{"editor":{"id":"1713"},"field":"time","formatter":{"id":"1714"},"title":"Cumulative time in microseconds"},"id":"1605","type":"TableColumn"},{"attributes":{},"id":"1709","type":"Selection"},{"attributes":{},"id":"1713","type":"StringEditor"},{"attributes":{},"id":"1616","type":"LinearScale"},{"attributes":{},"id":"1625","type":"BasicTicker"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1628"},{"id":"1629"},{"id":"1630"},{"id":"1631"}]},"id":"1632","type":"Toolbar"},{"attributes":{},"id":"1614","type":"DataRange1d"},{"attributes":{},"id":"1710","type":"UnionRenderers"},{"attributes":{},"id":"1629","type":"WheelZoomTool"},{"attributes":{"field":"angle","include_zero":true},"id":"1637","type":"CumSum"},{"attributes":{"end":0.8999999999999999,"start":-0.5},"id":"1612","type":"Range1d"},{"attributes":{"axis_label":null,"formatter":{"id":"1647"},"ticker":{"id":"1625"},"visible":false},"id":"1624","type":"LinearAxis"},{"attributes":{},"id":"1711","type":"StringEditor"},{"attributes":{},"id":"1647","type":"BasicTickFormatter"},{"attributes":{"label":{"field":"phase"},"renderers":[{"id":"1643"}]},"id":"1653","type":"LegendItem"},{"attributes":{},"id":"1712","type":"StringFormatter"},{"attributes":{"field":"angle"},"id":"1638","type":"CumSum"},{"attributes":{"source":{"id":"1603"}},"id":"1608","type":"CDSView"},{"attributes":{},"id":"1618","type":"LinearScale"},{"attributes":{},"id":"1714","type":"StringFormatter"},{"attributes":{"source":{"id":"1639"}},"id":"1644","type":"CDSView"},{"attributes":{"axis_label":null,"formatter":{"id":"1649"},"ticker":{"id":"1621"},"visible":false},"id":"1620","type":"LinearAxis"},{"attributes":{"end_angle":{"expr":{"id":"1638"},"units":"rad"},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"units":"data","value":0.3},"start_angle":{"expr":{"id":"1637"},"units":"rad"},"x":{"value":0},"y":{"value":0.0}},"id":"1641","type":"Wedge"},{"attributes":{"callback":null,"tooltips":"@phase:@value"},"id":"1628","type":"HoverTool"},{"attributes":{"columns":[{"id":"1604"},{"id":"1605"},{"id":"1606"}],"height":350,"source":{"id":"1603"},"view":{"id":"1608"},"width":550},"id":"1607","type":"DataTable"},{"attributes":{"items":[{"id":"1653"}],"label_text_font_size":"8pt","location":"center_right"},"id":"1652","type":"Legend"},{"attributes":{},"id":"1715","type":"StringEditor"},{"attributes":{},"id":"1631","type":"PanTool"},{"attributes":{"children":[{"id":"1607"},{"id":"1610"}]},"id":"1654","type":"Row"},{"attributes":{"axis":{"id":"1624"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"1627","type":"Grid"},{"attributes":{},"id":"1621","type":"BasicTicker"},{"attributes":{"data_source":{"id":"1639"},"glyph":{"id":"1641"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1642"},"selection_glyph":null,"view":{"id":"1644"}},"id":"1643","type":"GlyphRenderer"},{"attributes":{},"id":"1716","type":"StringFormatter"},{"attributes":{},"id":"1630","type":"ResetTool"},{"attributes":{},"id":"1650","type":"Selection"},{"attributes":{"text":"The following table shows a list of operators that ran on the CPUs.\n        The most expensive operator on the CPUs was \"aten::conv2d\" with 18 %."},"id":"1609","type":"Paragraph"},{"attributes":{"end_angle":{"expr":{"id":"1638"},"units":"rad"},"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"radius":{"units":"data","value":0.3},"start_angle":{"expr":{"id":"1637"},"units":"rad"},"x":{"value":0},"y":{"value":0.0}},"id":"1642","type":"Wedge"},{"attributes":{"data":{"angle":{"__ndarray__":"5ghyEqSj8j9jnXRFw6LyP+q3ykj+ofI/Hbvg+NOf8j/9PyWFeLnWP67Nyp73stY/4hJk7Nas1j/Ap1wSUqzGP9Ud4PhR9MU/5tEPkGsqyz8=","dtype":"float64","order":"little","shape":[10]},"color":["#440154","#472777","#3E4989","#30678D","#25828E","#1E9C89","#35B778","#6BCD59","#B2DD2C","#FDE724"],"index":[0,1,2,3,4,5,6,7,8,9],"phase":["aten::conv2d","aten::convolution","aten::_convolution","aten::mkldnn_convolution","aten::batch_norm","aten::_batch_norm_impl_index","aten::native_batch_norm","aten::max_pool2d","aten::max_pool2d_with_indices","enumerate(DataLoader)#_MultiProcessingDataLoaderIter.__next__"],"value":{"__ndarray__":"KA4LYXCKMkAWHAHEkIkyQLhbr9HMiDJAIGJAb6WGMkCOfBjFvpoWQF6n1qlGlBZA5U11QC6OFkCsig4aqo0GQKEVmsmi1gVARzuvjbAFC0A=","dtype":"float64","order":"little","shape":[10]}},"selected":{"id":"1650"},"selection_policy":{"id":"1651"}},"id":"1639","type":"ColumnDataSource"},{"attributes":{"editor":{"id":"1711"},"field":"percentage","formatter":{"id":"1712"},"title":"Percentage"},"id":"1604","type":"TableColumn"},{"attributes":{"axis":{"id":"1620"},"grid_line_color":null,"ticker":null},"id":"1623","type":"Grid"},{"attributes":{"editor":{"id":"1715"},"field":"operator","formatter":{"id":"1716"},"title":"CPU operator"},"id":"1606","type":"TableColumn"}],"root_ids":["1655"]},"title":"Bokeh Application","version":"2.2.3"}};
+  var render_items = [{"docid":"9d1d95d3-4284-4d2a-9013-35a7eb0fd098","root_ids":["1655"],"roots":{"1655":"2cce9e75-7305-4074-b3f7-da9424bc1906"}}];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    var attempts = 0;
+    var timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        clearInterval(timer);
+        embed_document(root);
+      } else {
+        attempts++;
+        if (attempts > 100) {
+          clearInterval(timer);
+          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        }
+      }
+    }, 10, root)
+  }
+})(window);
+         </script>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+    </div>
+    <div class="cell border-box-sizing text_cell rendered">
+     <div class="prompt input_prompt">
+     </div>
+     <div class="inner_cell">
+      <div class="text_cell_render border-box-sizing rendered_html">
+       <h2 id="Rules-summary">
+        Rules summary
+        <a class="anchor-link" href="#Rules-summary">
+         ¶
+        </a>
+       </h2>
+      </div>
+     </div>
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+     <div class="output_wrapper">
+      <div class="output">
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_markdown rendered_html output_subarea">
+         <p>
+          The following table shows a profiling summary of the Debugger built-in rules. 
+The table is sorted by the rules that triggered the most frequently. During your training job, the Dataloader rule
+was the most frequently triggered. It processed 90 datapoints and was triggered 1 times.
+         </p>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_html rendered_html output_subarea">
+         <table border="1" class="dataframe">
+          <thead>
+           <tr style="text-align: left;">
+            <th>
+            </th>
+            <th>
+             Description
+            </th>
+            <th>
+             Recommendation
+            </th>
+            <th>
+             Number of times rule triggered
+            </th>
+            <th>
+             Number of datapoints
+            </th>
+            <th>
+             Rule parameters
+            </th>
+           </tr>
+          </thead>
+          <tbody>
+           <tr style="text-align: left;">
+            <th>
+             Dataloader
+            </th>
+            <td>
+             Checks how many data loaders are running in parallel and whether the total number is equal the number of available CPU cores. The rule triggers if number is much smaller or larger than the number of available cores. If too small, it might lead to low GPU utilization. If too large, it might impact other compute intensive operations on CPU.
+            </td>
+            <td>
+             Change the number of data loader processes.
+            </td>
+            <td>
+             1
+            </td>
+            <td>
+             90
+            </td>
+            <td>
+             min_threshold:70
+             <br/>
+             max_threshold:200
+            </td>
+           </tr>
+           <tr style="text-align: left;">
+            <th>
+             IOBottleneck
+            </th>
+            <td>
+             Checks if the data I/O wait time is high and the GPU utilization is low. It might indicate IO bottlenecks where GPU is waiting for data to arrive from storage. The rule evaluates the I/O and GPU utilization rates and triggers the issue if the time spent on the IO bottlenecks exceeds a threshold percent of the total training time. The default threshold is 50 percent.
+            </td>
+            <td>
+             Pre-fetch data or choose different file formats, such as binary formats that improve I/O performance.
+            </td>
+            <td>
+             0
+            </td>
+            <td>
+             347
+            </td>
+            <td>
+             threshold:50
+             <br/>
+             io_threshold:50
+             <br/>
+             gpu_threshold:10
+             <br/>
+             patience:1000
+            </td>
+           </tr>
+           <tr style="text-align: left;">
+            <th>
+             GPUMemoryIncrease
+            </th>
+            <td>
+             Measures the average GPU memory footprint and triggers if there is a large increase.
+            </td>
+            <td>
+             Choose a larger instance type with more memory if footprint is close to maximum available memory.
+            </td>
+            <td>
+             0
+            </td>
+            <td>
+             0
+            </td>
+            <td>
+             increase:5
+             <br/>
+             patience:1000
+             <br/>
+             window:10
+            </td>
+           </tr>
+           <tr style="text-align: left;">
+            <th>
+             LoadBalancing
+            </th>
+            <td>
+             Detects workload balancing issues across GPUs. Workload imbalance can occur in training jobs with data parallelism. The gradients are accumulated on a primary GPU, and this GPU might be overused with regard to other GPUs, resulting in reducing the efficiency of data parallelization.
+            </td>
+            <td>
+             Choose a different distributed training strategy or a different distributed training framework.
+            </td>
+            <td>
+             0
+            </td>
+            <td>
+             0
+            </td>
+            <td>
+             threshold:0.2
+             <br/>
+             patience:1000
+            </td>
+           </tr>
+           <tr style="text-align: left;">
+            <th>
+             MaxInitializationTime
+            </th>
+            <td>
+             Checks if the time spent on initialization exceeds a threshold percent of the total training time. The rule waits until the first step of training loop starts. The initialization can take longer if downloading the entire dataset from Amazon S3 in File mode. The default threshold is 20 minutes.
+            </td>
+            <td>
+             Initialization takes too long. If using File mode, consider switching to Pipe mode in case you are using TensorFlow framework.
+            </td>
+            <td>
+             0
+            </td>
+            <td>
+             64
+            </td>
+            <td>
+             threshold:20
+            </td>
+           </tr>
+           <tr style="text-align: left;">
+            <th>
+             CPUBottleneck
+            </th>
+            <td>
+             Checks if the CPU utilization is high and the GPU utilization is low. It might indicate CPU bottlenecks, where the GPUs are waiting for data to arrive from the CPUs. The rule evaluates the CPU and GPU utilization rates, and triggers the issue if the time spent on the CPU bottlenecks exceeds a threshold percent of the total training time. The default threshold is 50 percent.
+            </td>
+            <td>
+             Consider increasing the number of data loaders or applying data pre-fetching.
+            </td>
+            <td>
+             0
+            </td>
+            <td>
+             347
+            </td>
+            <td>
+             threshold:50
+             <br/>
+             cpu_threshold:90
+             <br/>
+             gpu_threshold:10
+             <br/>
+             patience:1000
+            </td>
+           </tr>
+           <tr style="text-align: left;">
+            <th>
+             BatchSize
+            </th>
+            <td>
+             Checks if GPUs are underutilized because the batch size is too small. To detect this problem, the rule analyzes the average GPU memory footprint, the CPU and the GPU utilization.
+            </td>
+            <td>
+             The batch size is too small, and GPUs are underutilized. Consider running on a smaller instance type or increasing the batch size.
+            </td>
+            <td>
+             0
+            </td>
+            <td>
+             344
+            </td>
+            <td>
+             cpu_threshold_p95:70
+             <br/>
+             gpu_threshold_p95:70
+             <br/>
+             gpu_memory_threshold_p95:70
+             <br/>
+             patience:1000
+             <br/>
+             window:500
+            </td>
+           </tr>
+           <tr style="text-align: left;">
+            <th>
+             StepOutlier
+            </th>
+            <td>
+             Detects outliers in step duration. The step duration for forward and backward pass should be roughly the same throughout the training. If there are significant outliers, it may indicate a system stall or bottleneck issues.
+            </td>
+            <td>
+             Check if there are any bottlenecks (CPU, I/O) correlated to the step outliers.
+            </td>
+            <td>
+             0
+            </td>
+            <td>
+             64
+            </td>
+            <td>
+             threshold:3
+             <br/>
+             mode:None
+             <br/>
+             n_outliers:10
+             <br/>
+             stddev:3
+            </td>
+           </tr>
+           <tr style="text-align: left;">
+            <th>
+             LowGPUUtilization
+            </th>
+            <td>
+             Checks if the GPU utilization is low or fluctuating. This can happen due to bottlenecks, blocking calls for synchronizations, or a small batch size.
+            </td>
+            <td>
+             Check if there are bottlenecks, minimize blocking calls, change distributed training strategy, or increase the batch size.
+            </td>
+            <td>
+             0
+            </td>
+            <td>
+             0
+            </td>
+            <td>
+             threshold_p95:70
+             <br/>
+             threshold_p5:10
+             <br/>
+             window:500
+             <br/>
+             patience:1000
+            </td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+     <div class="output_wrapper">
+      <div class="output">
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_markdown rendered_html output_subarea">
+         <h2 id="Analyzing-the-training-loop">
+          Analyzing the training loop
+          <a class="anchor-link" href="#Analyzing-the-training-loop">
+           ¶
+          </a>
+         </h2>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+     <div class="output_wrapper">
+      <div class="output">
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_markdown rendered_html output_subarea">
+         <h3 id="Step-duration-analysis">
+          Step duration analysis
+          <a class="anchor-link" href="#Step-duration-analysis">
+           ¶
+          </a>
+         </h3>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_html rendered_html output_subarea">
+         <div class="bk-root" data-root-id="1799" id="1e6f5d54-0c5a-42e0-bd80-7d1e7a1ab426">
+         </div>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div id="1829b14d-7f0d-49d2-8d99-50518220b60e">
+        </div>
+        <div class="output_subarea output_javascript">
+         <script type="text/javascript">
+          var element = $('#1829b14d-7f0d-49d2-8d99-50518220b60e');
+(function(root) {
+  function embed_document(root) {
+    
+  var docs_json = {"fa8ad52a-2272-41cd-ab82-2d24931929cd":{"roots":{"references":[{"attributes":{"children":[{"id":"1798"}]},"id":"1799","type":"Column"},{"attributes":{"text":"The StepOutlier rule measures step durations and checks for outliers. The rule \n        returns True if duration is larger than 3 times the standard deviation. The rule \n        also takes the parameter mode, that specifies whether steps from training or validation phase \n        should be checked. In your processing job mode was specified as None. \n        Typically the first step is taking significantly more time and to avoid the \n        rule triggering immediately, one can use n_outliers to specify the number of outliers to ignore. \n        n_outliers was set to 10.\n        The rule analysed 64 datapoints and triggered 0 times.\n        ","width":900},"id":"1798","type":"Paragraph"}],"root_ids":["1799"]},"title":"Bokeh Application","version":"2.2.3"}};
+  var render_items = [{"docid":"fa8ad52a-2272-41cd-ab82-2d24931929cd","root_ids":["1799"],"roots":{"1799":"1e6f5d54-0c5a-42e0-bd80-7d1e7a1ab426"}}];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    var attempts = 0;
+    var timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        clearInterval(timer);
+        embed_document(root);
+      } else {
+        attempts++;
+        if (attempts > 100) {
+          clearInterval(timer);
+          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        }
+      }
+    }, 10, root)
+  }
+})(window);
+         </script>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+     <div class="output_wrapper">
+      <div class="output">
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_markdown rendered_html output_subarea">
+         <h3 id="GPU-utilization-analysis">
+          GPU utilization analysis
+          <a class="anchor-link" href="#GPU-utilization-analysis">
+           ¶
+          </a>
+         </h3>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_markdown rendered_html output_subarea">
+         <p>
+          <strong>
+           Usage per GPU
+          </strong>
+         </p>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_html rendered_html output_subarea">
+         <div class="bk-root" data-root-id="1867" id="99ca7624-42f4-4efe-beef-6bff31b07511">
+         </div>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div id="559cdb32-c8b6-4907-a467-ec00132204b8">
+        </div>
+        <div class="output_subarea output_javascript">
+         <script type="text/javascript">
+          var element = $('#559cdb32-c8b6-4907-a467-ec00132204b8');
+(function(root) {
+  function embed_document(root) {
+    
+  var docs_json = {"2daed3f0-e6dc-473b-9bff-1f58b6b0212a":{"roots":{"references":[{"attributes":{"text":"The LowGPUUtilization rule checks for a low and fluctuating GPU usage. If the GPU usage is \n        consistently low, it might be caused by bottlenecks or a small batch size. If usage is heavily \n        fluctuating, it can be due to bottlenecks or blocking calls. The rule computed the 95th and 5th \n        percentile of GPU utilization on 500 continuous datapoints and found 0 cases where \n        p95 was above 70% and p5 was below 10%. If p95 is high and p5 is low,\n        it might indicate that the GPU usage is highly fluctuating. If both values are very low, \n        it would mean that the machine is underutilized. During initialization, the GPU usage is likely zero, \n        so the rule skipped the first 1000 data points.\n        The rule analysed 0 datapoints and triggered 0 times.","width":800},"id":"1867","type":"Paragraph"}],"root_ids":["1867"]},"title":"Bokeh Application","version":"2.2.3"}};
+  var render_items = [{"docid":"2daed3f0-e6dc-473b-9bff-1f58b6b0212a","root_ids":["1867"],"roots":{"1867":"99ca7624-42f4-4efe-beef-6bff31b07511"}}];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    var attempts = 0;
+    var timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        clearInterval(timer);
+        embed_document(root);
+      } else {
+        attempts++;
+        if (attempts > 100) {
+          clearInterval(timer);
+          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        }
+      }
+    }, 10, root)
+  }
+})(window);
+         </script>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+     <div class="output_wrapper">
+      <div class="output">
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_markdown rendered_html output_subarea">
+         <p>
+          <strong>
+           Workload balancing
+          </strong>
+         </p>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_html rendered_html output_subarea">
+         <div class="bk-root" data-root-id="1935" id="bc45da0d-2994-4c90-adb7-d81a2d5f620c">
+         </div>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div id="08a6008c-5e5a-4463-90bb-3c158fd4a50c">
+        </div>
+        <div class="output_subarea output_javascript">
+         <script type="text/javascript">
+          var element = $('#08a6008c-5e5a-4463-90bb-3c158fd4a50c');
+(function(root) {
+  function embed_document(root) {
+    
+  var docs_json = {"7ea9cfd0-2a15-4a85-ab96-53ae8604f5bd":{"roots":{"references":[{"attributes":{"text":"The LoadBalancing rule helps to detect issues in workload balancing \n        between multiple GPUs. \n        It computes a histogram of GPU utilization values for each GPU and compares then the \n        similarity between histograms. The rule checked if the distance of histograms is larger than the \n        threshold of 0.2.\n        During initialization utilization is likely zero, so the rule skipped the first 1000 data points.\n        ","width":900},"id":"1935","type":"Paragraph"}],"root_ids":["1935"]},"title":"Bokeh Application","version":"2.2.3"}};
+  var render_items = [{"docid":"7ea9cfd0-2a15-4a85-ab96-53ae8604f5bd","root_ids":["1935"],"roots":{"1935":"bc45da0d-2994-4c90-adb7-d81a2d5f620c"}}];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    var attempts = 0;
+    var timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        clearInterval(timer);
+        embed_document(root);
+      } else {
+        attempts++;
+        if (attempts > 100) {
+          clearInterval(timer);
+          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        }
+      }
+    }, 10, root)
+  }
+})(window);
+         </script>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+     <div class="output_wrapper">
+      <div class="output">
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_markdown rendered_html output_subarea">
+         <h3 id="Dataloading-analysis">
+          Dataloading analysis
+          <a class="anchor-link" href="#Dataloading-analysis">
+           ¶
+          </a>
+         </h3>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_html rendered_html output_subarea">
+         <div class="bk-root" data-root-id="2003" id="7a98a872-3675-4e84-b504-03fc98278c5d">
+         </div>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div id="d0c1d426-875d-4153-9938-8e0d22ef6593">
+        </div>
+        <div class="output_subarea output_javascript">
+         <script type="text/javascript">
+          var element = $('#d0c1d426-875d-4153-9938-8e0d22ef6593');
+(function(root) {
+  function embed_document(root) {
+    
+  var docs_json = {"90edbf22-aed4-405c-acbc-f86703e5d51a":{"roots":{"references":[{"attributes":{"text":"The number of dataloader workers can greatly affect the overall performance \n        of your training job. The rule analyzed the number of dataloading processes that have been running in \n        parallel on the training instance and compares it against the total number of cores. \n        The rule checked if the number of processes is smaller than 70% or larger than \n        200% the total number of cores. Having too few dataloader workers can slowdown data preprocessing and lead to GPU \n        underutilization. Having too many dataloader workers may hurt the\n        overall performance if you are running other compute intensive tasks on the CPU.\n        The rule analysed 90 datapoints and triggered 1 times.","width":900},"id":"2003","type":"Paragraph"}],"root_ids":["2003"]},"title":"Bokeh Application","version":"2.2.3"}};
+  var render_items = [{"docid":"90edbf22-aed4-405c-acbc-f86703e5d51a","root_ids":["2003"],"roots":{"2003":"7a98a872-3675-4e84-b504-03fc98278c5d"}}];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    var attempts = 0;
+    var timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        clearInterval(timer);
+        embed_document(root);
+      } else {
+        attempts++;
+        if (attempts > 100) {
+          clearInterval(timer);
+          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        }
+      }
+    }, 10, root)
+  }
+})(window);
+         </script>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_html rendered_html output_subarea">
+         <div class="bk-root" data-root-id="2071" id="5bdc483c-5f3c-43a8-9f7e-088b1110f580">
+         </div>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div id="88bbf3ab-b246-4f42-9eac-15e2d5b4f789">
+        </div>
+        <div class="output_subarea output_javascript">
+         <script type="text/javascript">
+          var element = $('#88bbf3ab-b246-4f42-9eac-15e2d5b4f789');
+(function(root) {
+  function embed_document(root) {
+    
+  var docs_json = {"3821e2fe-57bb-4841-aeac-9b68254ef39c":{"roots":{"references":[{"attributes":{"text":" Your training instance provided 8 CPU cores, however your training job only \n                ran on average 4 dataloader workers in parallel. We recommend you to increase the number of\n                dataloader workers. Using pinned memory also improves performance because it enables fast data transfer to CUDA-enabled GPUs.\n            The rule detected that your training job was not using pinned memory. \n            In case of using PyTorch Dataloader, you can enable this by setting pin_memory=True.","width":900},"id":"2071","type":"Paragraph"}],"root_ids":["2071"]},"title":"Bokeh Application","version":"2.2.3"}};
+  var render_items = [{"docid":"3821e2fe-57bb-4841-aeac-9b68254ef39c","root_ids":["2071"],"roots":{"2071":"5bdc483c-5f3c-43a8-9f7e-088b1110f580"}}];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    var attempts = 0;
+    var timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        clearInterval(timer);
+        embed_document(root);
+      } else {
+        attempts++;
+        if (attempts > 100) {
+          clearInterval(timer);
+          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        }
+      }
+    }, 10, root)
+  }
+})(window);
+         </script>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_html rendered_html output_subarea">
+         <div class="bk-root" data-root-id="2181" id="48396050-0361-4ce5-bbc7-591e7f988ae1">
+         </div>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div id="bac769e8-0c9b-4d26-88dc-f29d2b34a5df">
+        </div>
+        <div class="output_subarea output_javascript">
+         <script type="text/javascript">
+          var element = $('#bac769e8-0c9b-4d26-88dc-f29d2b34a5df');
+(function(root) {
+  function embed_document(root) {
+    
+  var docs_json = {"85354e7a-997d-4f68-8a4c-f6f8f39d4997":{"roots":{"references":[{"attributes":{"children":[{"id":"2180"},{"id":"2139"}]},"id":"2181","type":"Column"},{"attributes":{"label":{"value":"Dataloading events"},"renderers":[{"id":"2168"}]},"id":"2179","type":"LegendItem"},{"attributes":{"text":"The following histogram shows the distribution of dataloading times that have been measured throughout your training job. The median dataloading time was 4.9764s. \n            The 95th percentile was 9.4188s and the 25th percentile was 3.5905s","width":900},"id":"2180","type":"Paragraph"},{"attributes":{"callback":null},"id":"2156","type":"HoverTool"},{"attributes":{},"id":"2173","type":"BasicTickFormatter"},{"attributes":{},"id":"2157","type":"WheelZoomTool"},{"attributes":{},"id":"2158","type":"ResetTool"},{"attributes":{},"id":"2176","type":"Selection"},{"attributes":{},"id":"2146","type":"LinearScale"},{"attributes":{},"id":"2175","type":"BasicTickFormatter"},{"attributes":{},"id":"2159","type":"PanTool"},{"attributes":{"click_policy":"hide","items":[{"id":"2179"}]},"id":"2178","type":"Legend"},{"attributes":{"data":{"left":[4.6e-05,0.13213981,0.26423362,0.39632743000000004,0.52842124,0.66051505,0.7926088600000001,0.9247026700000001,1.05679648,1.18889029,1.3209841,1.45307791,1.5851717200000002,1.7172655300000002,1.8493593400000001,1.98145315,2.1135469600000003,2.2456407700000005,2.3777345800000003,2.5098283900000005,2.6419222,2.7740160100000004,2.90610982,3.0382036300000004,3.1702974400000006,3.3023912500000003,3.4344850600000005,3.5665788700000003,3.6986726800000005,3.8307664900000002,3.9628603000000004,4.094954110000001,4.22704792,4.35914173,4.491235540000001,4.623329350000001,4.75542316,4.88751697,5.019610780000001,5.1517045900000005,5.2837984,5.415892210000001,5.547986020000001,5.68007983,5.81217364,5.944267450000001,6.0763612600000005,6.20845507,6.340548880000001,6.472642690000001,6.6047365000000005,6.73683031,6.868924120000001,7.001017930000001,7.13311174,7.26520555,7.397299360000001,7.5293931700000005,7.66148698,7.793580790000001,7.925674600000001,8.05776841,8.18986222,8.321956029999999,8.45404984,8.58614365,8.71823746,8.85033127,8.98242508,9.11451889,9.2466127,9.378706509999999,9.51080032,9.64289413,9.774987939999999,9.90708175,10.03917556,10.17126937,10.30336318,10.43545699,10.5675508,10.69964461,10.83173842,10.96383223,11.09592604,11.228019849999999,11.36011366,11.49220747,11.62430128,11.75639509,11.8884889,12.02058271,12.15267652,12.28477033,12.41686414,12.54895795,12.68105176,12.81314557,12.94523938,13.07733319],"right":[0.13213981,0.26423362,0.39632743000000004,0.52842124,0.66051505,0.7926088600000001,0.9247026700000001,1.05679648,1.18889029,1.3209841,1.45307791,1.5851717200000002,1.7172655300000002,1.8493593400000001,1.98145315,2.1135469600000003,2.2456407700000005,2.3777345800000003,2.5098283900000005,2.6419222,2.7740160100000004,2.90610982,3.0382036300000004,3.1702974400000006,3.3023912500000003,3.4344850600000005,3.5665788700000003,3.6986726800000005,3.8307664900000002,3.9628603000000004,4.094954110000001,4.22704792,4.35914173,4.491235540000001,4.623329350000001,4.75542316,4.88751697,5.019610780000001,5.1517045900000005,5.2837984,5.415892210000001,5.547986020000001,5.68007983,5.81217364,5.944267450000001,6.0763612600000005,6.20845507,6.340548880000001,6.472642690000001,6.6047365000000005,6.73683031,6.868924120000001,7.001017930000001,7.13311174,7.26520555,7.397299360000001,7.5293931700000005,7.66148698,7.793580790000001,7.925674600000001,8.05776841,8.18986222,8.321956029999999,8.45404984,8.58614365,8.71823746,8.85033127,8.98242508,9.11451889,9.2466127,9.378706509999999,9.51080032,9.64289413,9.774987939999999,9.90708175,10.03917556,10.17126937,10.30336318,10.43545699,10.5675508,10.69964461,10.83173842,10.96383223,11.09592604,11.228019849999999,11.36011366,11.49220747,11.62430128,11.75639509,11.8884889,12.02058271,12.15267652,12.28477033,12.41686414,12.54895795,12.68105176,12.81314557,12.94523938,13.07733319,13.209427],"top":[7,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,23,0,0,2,2,0,0,0,0,0,16,8,6,2,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4]},"selected":{"id":"2176"},"selection_policy":{"id":"2177"}},"id":"2165","type":"ColumnDataSource"},{"attributes":{"axis_label":"Dataloading in [s]","formatter":{"id":"2175"},"ticker":{"id":"2149"}},"id":"2148","type":"LinearAxis"},{"attributes":{"data_source":{"id":"2165"},"glyph":{"id":"2166"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"2167"},"selection_glyph":null,"view":{"id":"2169"}},"id":"2168","type":"GlyphRenderer"},{"attributes":{"axis":{"id":"2148"},"grid_line_color":"white","ticker":null},"id":"2151","type":"Grid"},{"attributes":{},"id":"2149","type":"BasicTicker"},{"attributes":{"end":13.209427,"start":4.6e-05},"id":"2140","type":"Range1d"},{"attributes":{},"id":"2153","type":"BasicTicker"},{"attributes":{},"id":"2144","type":"LinearScale"},{"attributes":{"below":[{"id":"2148"}],"center":[{"id":"2151"},{"id":"2155"},{"id":"2178"}],"left":[{"id":"2152"}],"plot_height":450,"plot_width":850,"renderers":[{"id":"2168"}],"title":{"id":"2170"},"toolbar":{"id":"2160"},"x_range":{"id":"2140"},"x_scale":{"id":"2144"},"y_range":{"id":"2142"},"y_scale":{"id":"2146"}},"id":"2139","subtype":"Figure","type":"Plot"},{"attributes":{"start":0},"id":"2142","type":"DataRange1d"},{"attributes":{"text":""},"id":"2170","type":"Title"},{"attributes":{"bottom":{"value":0},"fill_alpha":{"value":0.8},"fill_color":{"value":"#440154"},"left":{"field":"left"},"line_color":{"value":"white"},"right":{"field":"right"},"top":{"field":"top"}},"id":"2166","type":"Quad"},{"attributes":{},"id":"2177","type":"UnionRenderers"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"2156"},{"id":"2157"},{"id":"2158"},{"id":"2159"}]},"id":"2160","type":"Toolbar"},{"attributes":{"bottom":{"value":0},"fill_alpha":{"value":0.1},"fill_color":{"value":"#440154"},"left":{"field":"left"},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"right":{"field":"right"},"top":{"field":"top"}},"id":"2167","type":"Quad"},{"attributes":{"axis":{"id":"2152"},"dimension":1,"grid_line_color":"white","ticker":null},"id":"2155","type":"Grid"},{"attributes":{"source":{"id":"2165"}},"id":"2169","type":"CDSView"},{"attributes":{"axis_label":"Occurrences","formatter":{"id":"2173"},"ticker":{"id":"2153"}},"id":"2152","type":"LinearAxis"}],"root_ids":["2181"]},"title":"Bokeh Application","version":"2.2.3"}};
+  var render_items = [{"docid":"85354e7a-997d-4f68-8a4c-f6f8f39d4997","root_ids":["2181"],"roots":{"2181":"48396050-0361-4ce5-bbc7-591e7f988ae1"}}];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    var attempts = 0;
+    var timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        clearInterval(timer);
+        embed_document(root);
+      } else {
+        attempts++;
+        if (attempts > 100) {
+          clearInterval(timer);
+          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        }
+      }
+    }, 10, root)
+  }
+})(window);
+         </script>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+     <div class="output_wrapper">
+      <div class="output">
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_markdown rendered_html output_subarea">
+         <h3 id="Batch-size">
+          Batch size
+          <a class="anchor-link" href="#Batch-size">
+           ¶
+          </a>
+         </h3>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_html rendered_html output_subarea">
+         <div class="bk-root" data-root-id="2297" id="4d42b820-b0ff-4810-b47a-12eb2ddfb9ba">
+         </div>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div id="993406a3-69d4-4bbe-ba7f-60305235a437">
+        </div>
+        <div class="output_subarea output_javascript">
+         <script type="text/javascript">
+          var element = $('#993406a3-69d4-4bbe-ba7f-60305235a437');
+(function(root) {
+  function embed_document(root) {
+    
+  var docs_json = {"d4e67df1-8adb-4b31-83c9-9389305f725d":{"roots":{"references":[{"attributes":{"text":"The BatchSize rule helps to detect if GPU is underutilized because of the batch size being \n        too small. To detect this the rule analyzes the GPU memory footprint, CPU and GPU utilization. The rule checked if the 95th percentile of CPU utilization is below cpu_threshold_p95 of \n        70%, the 95th percentile of GPU utilization is below gpu_threshold_p95 of 70% and the 95th percentile of memory footprint         below gpu_memory_threshold_p95 of 70%. In your training job this happened 0 times.         The rule skipped the first 1000 datapoints. The rule computed the percentiles over window size of 500 continuous datapoints.\n\n        The rule analysed 344 datapoints and triggered 0 times.\n        ","width":800},"id":"2297","type":"Paragraph"}],"root_ids":["2297"]},"title":"Bokeh Application","version":"2.2.3"}};
+  var render_items = [{"docid":"d4e67df1-8adb-4b31-83c9-9389305f725d","root_ids":["2297"],"roots":{"2297":"4d42b820-b0ff-4810-b47a-12eb2ddfb9ba"}}];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    var attempts = 0;
+    var timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        clearInterval(timer);
+        embed_document(root);
+      } else {
+        attempts++;
+        if (attempts > 100) {
+          clearInterval(timer);
+          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        }
+      }
+    }, 10, root)
+  }
+})(window);
+         </script>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+     <div class="output_wrapper">
+      <div class="output">
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_markdown rendered_html output_subarea">
+         <h3 id="CPU-bottlenecks">
+          CPU bottlenecks
+          <a class="anchor-link" href="#CPU-bottlenecks">
+           ¶
+          </a>
+         </h3>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_html rendered_html output_subarea">
+         <div class="bk-root" data-root-id="2373" id="7fdab225-a0b9-494d-9366-9f5a1d35f110">
+         </div>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div id="2f0d327f-963c-4929-8091-0dc7982c8a98">
+        </div>
+        <div class="output_subarea output_javascript">
+         <script type="text/javascript">
+          var element = $('#2f0d327f-963c-4929-8091-0dc7982c8a98');
+(function(root) {
+  function embed_document(root) {
+    
+  var docs_json = {"7a204824-45be-404e-a032-4a8276478959":{"roots":{"references":[{"attributes":{"text":"The CPUBottleneck rule checked when the CPU utilization was above cpu_threshold of 90% \n        and GPU utilization was below gpu_threshold of 10%. \n        During initialization utilization is likely to be zero, so the rule skipped the first 1000 datapoints.\n        With this configuration the rule found 0 CPU bottlenecks which is 0% of the total time. This is below the threshold of 50%\n        The rule analysed 347 data points and triggered 0 times.","width":900},"id":"2373","type":"Paragraph"}],"root_ids":["2373"]},"title":"Bokeh Application","version":"2.2.3"}};
+  var render_items = [{"docid":"7a204824-45be-404e-a032-4a8276478959","root_ids":["2373"],"roots":{"2373":"7fdab225-a0b9-494d-9366-9f5a1d35f110"}}];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    var attempts = 0;
+    var timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        clearInterval(timer);
+        embed_document(root);
+      } else {
+        attempts++;
+        if (attempts > 100) {
+          clearInterval(timer);
+          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        }
+      }
+    }, 10, root)
+  }
+})(window);
+         </script>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+     <div class="output_wrapper">
+      <div class="output">
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_markdown rendered_html output_subarea">
+         <h3 id="I/O-bottlenecks">
+          I/O bottlenecks
+          <a class="anchor-link" href="#I/O-bottlenecks">
+           ¶
+          </a>
+         </h3>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_html rendered_html output_subarea">
+         <div class="bk-root" data-root-id="2449" id="4e417a42-0094-4e91-b9c2-a8cffdc3192c">
+         </div>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div id="67b7f8d2-557f-4400-a040-f382085d8434">
+        </div>
+        <div class="output_subarea output_javascript">
+         <script type="text/javascript">
+          var element = $('#67b7f8d2-557f-4400-a040-f382085d8434');
+(function(root) {
+  function embed_document(root) {
+    
+  var docs_json = {"67505c45-4ede-4f71-9dae-45bb97da4c98":{"roots":{"references":[{"attributes":{"text":"The IOBottleneck rule checked when I/O wait time was above io_threshold of 50% \n        and GPU utilization was below gpu_threshold of 10. During initialization utilization is likely to be zero, so the rule skipped the first 1000 datapoints. \n        With this configuration the rule found 0 I/O bottlenecks which is 0% of the total time. This is below the threshold of 50%.\n        The rule analysed 347 datapoints and triggered 0 times.","width":900},"id":"2449","type":"Paragraph"}],"root_ids":["2449"]},"title":"Bokeh Application","version":"2.2.3"}};
+  var render_items = [{"docid":"67505c45-4ede-4f71-9dae-45bb97da4c98","root_ids":["2449"],"roots":{"2449":"4e417a42-0094-4e91-b9c2-a8cffdc3192c"}}];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    var attempts = 0;
+    var timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        clearInterval(timer);
+        embed_document(root);
+      } else {
+        attempts++;
+        if (attempts > 100) {
+          clearInterval(timer);
+          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        }
+      }
+    }, 10, root)
+  }
+})(window);
+         </script>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="cell border-box-sizing code_cell rendered celltag_hide-input">
+     <div class="output_wrapper">
+      <div class="output">
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_markdown rendered_html output_subarea">
+         <h3 id="GPU-memory">
+          GPU memory
+          <a class="anchor-link" href="#GPU-memory">
+           ¶
+          </a>
+         </h3>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div class="output_html rendered_html output_subarea">
+         <div class="bk-root" data-root-id="2525" id="647fd856-0a3e-4e27-9d48-e92b2d540ef9">
+         </div>
+        </div>
+       </div>
+       <div class="output_area">
+        <div class="prompt">
+        </div>
+        <div id="05181b8c-9b90-4190-ab19-87042a883793">
+        </div>
+        <div class="output_subarea output_javascript">
+         <script type="text/javascript">
+          var element = $('#05181b8c-9b90-4190-ab19-87042a883793');
+(function(root) {
+  function embed_document(root) {
+    
+  var docs_json = {"8b69fe44-7a8f-423b-bca8-3ec4d5ed1983":{"roots":{"references":[{"attributes":{"text":"The GPUMemoryIncrease rule helps to detect large increase in memory usage on GPUs. \n        The rule checked if the moving average of memory increased by more than 5.0%. \n        So if the moving average increased for instance from 10% to 16.0%, \n        the rule would have triggered. During initialization utilization  is likely 0, so the rule skipped the first 1000 datapoints.\n        The moving average was computed on a window size of 10 continuous datapoints. The rule detected 0 violations\n        where the moving average between previous and current time window increased by more than 5.0%.\n        The rule analysed 0 datapoints and triggered 0 times.","width":900},"id":"2525","type":"Paragraph"}],"root_ids":["2525"]},"title":"Bokeh Application","version":"2.2.3"}};
+  var render_items = [{"docid":"8b69fe44-7a8f-423b-bca8-3ec4d5ed1983","root_ids":["2525"],"roots":{"2525":"647fd856-0a3e-4e27-9d48-e92b2d540ef9"}}];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    var attempts = 0;
+    var timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        clearInterval(timer);
+        embed_document(root);
+      } else {
+        attempts++;
+        if (attempts > 100) {
+          clearInterval(timer);
+          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        }
+      }
+    }, 10, root)
+  }
+})(window);
+         </script>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <img id="profiler-telemetry" src="https://sm-profiler-report-us-east-1.s3.us-east-1.amazonaws.com/?x-artifact-id=profiler_report_v1&amp;x-arn=arn:aws:sagemaker:us-east-1:779231204742:processing-job/ant-bees-estimator2-2022-0-profilerreport-baebc3d2"/>
   </div>
-</body>
-
- 
-
-
+ </body>
 </html>
